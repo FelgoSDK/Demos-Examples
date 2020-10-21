@@ -1,0 +1,1391 @@
+{
+  "version": 1,
+  "demos": {
+    "messenger": {
+      "id": "messenger",
+      "title": "Messenger App",
+      "shortTitle": "Messenger App",
+      "sourcePath": "appdemos/messenger",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Facebook Messenger-like messaging app.",
+      "description": "<html>This demo shows how to create a Facebook Messenger-like messaging app.<br/><br/>The demo shows how to:<br/> ‣ Use Felgo navigation components to create a feature-rich messaging UI<br/> ‣ Use text input to send and receive messages</html>",
+      "overviewImage": "preview-assets/appdemos/messenger/overviewImage.png",
+      "genres": [
+        "Social"
+      ],
+      "tags": [
+        "messenger",
+        "messaging",
+        "chat",
+        "social",
+        "sms"
+      ],
+      "tagsAll": [
+        "messenger",
+        "messaging",
+        "chat",
+        "social",
+        "facebook",
+        "whatsapp",
+        "telegram",
+        "sms",
+        "business",
+        "communication",
+        "dating",
+        "entertainment",
+        "events",
+        "tools"
+      ],
+      "usedComponents": [
+        "appbutton",
+        "apptextfield",
+        "jsonlistmodel",
+        "listpage",
+        "navigation"
+      ],
+      "complexity": "Simple",
+      "order": 90,
+      "linesOfCode": 188,
+      "images": [
+        "preview-assets/appdemos/messenger/01-android.jpg",
+        "preview-assets/appdemos/messenger/01-ios.jpg",
+        "preview-assets/appdemos/messenger/02-android.jpg",
+        "preview-assets/appdemos/messenger/02-ios.jpg"
+      ],
+      "main": "qml/MessengerMain.qml",
+      "cidePath": "-/ide/project/root/messenger/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/messenger/Messenger.pro",
+        "folder": "examples/appdemos/messenger"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-messaging-example/"
+    },
+    "bluetooth-heartrate": {
+      "id": "bluetooth-heartrate",
+      "title": "Bluetooth LE Heartrate",
+      "shortTitle": "Bluetooth LE Heartrate",
+      "sourcePath": "appdemos/bluetooth-heartrate",
+      "runnable": [
+        "ios",
+        "android"
+      ],
+      "shortDescription": "Heartrate monitor app using Bluetooth LE (BLE).",
+      "description": "<html>This demo shows how to use the Felgo Bluetooth LE components to connect to a heart rate sensor and display the result.</html>",
+      "overviewImage": "preview-assets/appdemos/bluetooth-heartrate/overviewImage.png",
+      "genres": [
+        "Fitness"
+      ],
+      "tags": [
+        "bluetooth",
+        "ble",
+        "heartrate",
+        "fitness",
+        "wearables"
+      ],
+      "tagsAll": [
+        "bluetooth",
+        "ble",
+        "heartrate",
+        "fitness",
+        "wearables"
+      ],
+      "usedComponents": [
+        "appmodal",
+        "applistitem",
+        "bluetoothlecharacteristic",
+        "bluetoothledevice",
+        "bluetoothleservice",
+        "bluetoothlemanager"
+      ],
+      "complexity": "Simple",
+      "order": 90,
+      "linesOfCode": 188,
+      "images": [
+        "preview-assets/appdemos/bluetooth-heartrate/01-android.jpg",
+        "preview-assets/appdemos/bluetooth-heartrate/01-ios.jpg",
+        "preview-assets/appdemos/bluetooth-heartrate/02-android.jpg",
+        "preview-assets/appdemos/bluetooth-heartrate/02-ios.jpg"
+      ],
+      "main": "qml/Main.qml",
+      "cidePath": "-/ide/project/root/bluetooth-heartrate/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/bluetooth-heartrate/BluetoothHeartrate.pro",
+        "folder": "examples/appdemos/bluetooth-heartrate"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-bluetooth-heartrate-example/"
+    },
+    "coffee-machine": {
+      "id": "coffee-machine",
+      "title": "Coffee Machine Embedded UI App",
+      "shortTitle": "Coffee Machine UI App",
+      "sourcePath": "appdemos/coffee-machine",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Coffee Machine UI for embedded devices",
+      "description": "<html>This demo shows how to create a simple but beautiful touch interface for display on embedded devices.<br/><br/>The demo shows how to:<br/> ‣ Use Felgo controls on embedded targets<br/> ‣ Create fluid animations for embedded devices with optimized performance</html>",
+      "overviewImage": "preview-assets/appdemos/coffee-machine/overviewImage.png",
+      "genres": [
+        "Embedded"
+      ],
+      "tags": [
+        "coffee",
+        "embedded",
+        "device",
+        "touch"
+      ],
+      "tagsAll": [
+        "coffee-machine",
+        "food",
+        "drink",
+        "coffee",
+        "dashboard",
+        "embedded",
+        "design"
+      ],
+      "usedComponents": [
+        "appslider",
+        "apptext",
+        "navigationstack",
+        "navigation",
+        "iconbutton",
+        "ripplemousearea"
+      ],
+      "complexity": "Simple",
+      "order": 130,
+      "linesOfCode": 403,
+      "images": [
+        "preview-assets/appdemos/coffee-machine/01-android.jpg",
+        "preview-assets/appdemos/coffee-machine/01-ios.jpg",
+        "preview-assets/appdemos/coffee-machine/02-android.jpg",
+        "preview-assets/appdemos/coffee-machine/02-ios.jpg"
+      ],
+      "main": "qml/CoffeeMachineMain.qml",
+      "cidePath": "-/ide/project/root/coffee-machine/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/coffee-machine/CoffeeMachine.pro",
+        "folder": "examples/appdemos/coffee-machine"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-coffee-machine-example/"
+    },
+    "map-features": {
+      "id": "map-features",
+      "title": "Map Features Showcase App",
+      "shortTitle": "Map Features Showcase App",
+      "sourcePath": "appdemos/map-features",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Map and location feature demo app",
+      "description": "<html>The demo shows how to add location and navigation features to an app.<br/><br/>The demo shows how to:<br/> ‣ Display maps using different providers<br/> ‣ Customize a map's appearance<br/> ‣ Navigate to and display the user position<br/> ‣ Geocode location basing on typed address<br/> ‣ Reverse geocode address from coordinates<br/> ‣ Display route on map</html>",
+      "overviewImage": "preview-assets/appdemos/map-features/overviewImage.png",
+      "genres": [
+        "Navigation"
+      ],
+      "tags": [
+        "map",
+        "navigation",
+        "routing",
+        "positioning"
+      ],
+      "tagsAll": [
+        "map",
+        "navigation",
+        "routing",
+        "positioning",
+        "uber",
+        "osm",
+        "mapbox",
+        "here",
+        "google",
+        "travel",
+        "showcase"
+      ],
+      "usedComponents": [
+        "appactivityindicator",
+        "appmap",
+        "apppaper",
+        "appmodal",
+        "apptext",
+        "apptextfield",
+        "icon",
+        "listpage",
+        "navigation",
+        "searchbar",
+        "mapquickitem",
+        "plugin",
+        "pluginparameter"
+      ],
+      "complexity": "Medium",
+      "order": 100,
+      "linesOfCode": 540,
+      "images": [
+        "preview-assets/appdemos/map-features/01-android.jpg",
+        "preview-assets/appdemos/map-features/01-ios.jpg",
+        "preview-assets/appdemos/map-features/02-android.jpg",
+        "preview-assets/appdemos/map-features/02-ios.jpg"
+      ],
+      "main": "qml/MapFeaturesMain.qml",
+      "cidePath": "-/ide/project/root/map-features/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/map-features/MapFeatures.pro",
+        "folder": "examples/appdemos/map-features"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-map-features-example/"
+    },
+    "todo-list": {
+      "id": "todo-list",
+      "title": "ToDo List App",
+      "shortTitle": "ToDo List App",
+      "sourcePath": "appdemos/todo-list",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "To-Do list & architecture best-practice app",
+      "description": "<html>The To-Do list demo works with a list of todos loaded from a REST API.<br/><br/>The demo shows how to:<br/> ‣ Build advanced interfaces with App Controls like AppListView and PullToRefreshHandler.<br/> ‣ Use JsonListModel and SortFilterProxyModel for sorting and filtering.<br/> ‣ Connect to REST APIs with the HttpRequest type.<br/> ‣ Cache data offline with a Storage.<br/> ‣ Advanced showcase for Separation of Model, View and Logic Code in your Qt App using QML</html>",
+      "overviewImage": "preview-assets/appdemos/todo-list/overviewImage.png",
+      "genres": [
+        "Productivity"
+      ],
+      "tags": [
+        "todo",
+        "mvc",
+        "architecture",
+        "rest",
+        "api",
+        "caching"
+      ],
+      "tagsAll": [
+        "input",
+        "field",
+        "text",
+        "edit",
+        "register",
+        "signup",
+        "mvc",
+        "architecture",
+        "rest",
+        "api",
+        "caching",
+        "books",
+        "finance",
+        "productivity",
+        "shopping",
+        "time",
+        "task",
+        "model"
+      ],
+      "usedComponents": [
+        "apptext",
+        "appactivityindicator",
+        "appcheckbox",
+        "applistview",
+        "apppaper",
+        "apptextfield",
+        "appbutton",
+        "listpage",
+        "navigation",
+        "simplerow",
+        "icon",
+        "iconbuttonbaritem",
+        "pulltorefreshhandler",
+        "storage"
+      ],
+      "complexity": "Medium",
+      "order": 120,
+      "linesOfCode": 737,
+      "images": [
+        "preview-assets/appdemos/todo-list/01-android.jpg",
+        "preview-assets/appdemos/todo-list/01-ios.jpg",
+        "preview-assets/appdemos/todo-list/02-android.jpg",
+        "preview-assets/appdemos/todo-list/02-ios.jpg"
+      ],
+      "main": "qml/TodoListMain.qml",
+      "cidePath": "-/ide/project/root/todo-list/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/todo-list/TodoList.pro",
+        "folder": "examples/appdemos/todo-list"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-todolist-example/"
+    },
+    "weather-dashboard": {
+      "id": "weather-dashboard",
+      "title": "Weather Dashboard App",
+      "shortTitle": "Weather Dashboard App",
+      "sourcePath": "appdemos/weather-dashboard",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Embedded weather dashboard UI app",
+      "description": "<html>The demo showcases how to include animations into user interfaces. It also shows how to build gorgeous full-screen layouts with just a few lines of code. The app makes use of several animation components and introduces a custom timer-based animation for changing the AppText's text.<br/><br/>The demo shows how to:<br/> ‣ Use animations to enrich the user interface<br/> ‣ Show fullscreen UI experiences</html>",
+      "overviewImage": "preview-assets/appdemos/weather-dashboard/overviewImage.png",
+      "genres": [
+        "Embedded"
+      ],
+      "tags": [
+        "weather",
+        "dashboard",
+        "animations",
+        "embedded"
+      ],
+      "tagsAll": [
+        "weather",
+        "dashboard",
+        "animations",
+        "embedded",
+        "home",
+        "automation",
+        "design",
+        "travel"
+      ],
+      "usedComponents": [
+        "apptext",
+        "icon",
+        "coloranimation",
+        "propertyanimation",
+        "timer"
+      ],
+      "complexity": "Simple",
+      "order": 110,
+      "linesOfCode": 189,
+      "images": [
+        "preview-assets/appdemos/weather-dashboard/01-android.jpg",
+        "preview-assets/appdemos/weather-dashboard/01-ios.jpg",
+        "preview-assets/appdemos/weather-dashboard/02-android.jpg",
+        "preview-assets/appdemos/weather-dashboard/02-ios.jpg"
+      ],
+      "main": "qml/WeatherDashboardMain.qml",
+      "cidePath": "-/ide/project/root/weather-dashboard/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/weather-dashboard/WeatherDashboard.pro",
+        "folder": "examples/appdemos/weather-dashboard"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-weather-example/"
+    },
+    "time-tracking": {
+      "id": "time-tracking",
+      "title": "Time Tracking App",
+      "shortTitle": "Time Tracking App",
+      "sourcePath": "appdemos/time-tracking",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Time tracking and project management app",
+      "description": "<html>This is a UI-centric demo version of the Jira Tima time tracking app. It is based on the official Jira Tima mobile app developed by Felgo.<br/><br/>The demo shows how to:<br/> ‣ Use a shared code-base across Android, iOS and desktop to show best practices for UI design and adaptive layouts<br/> ‣ Use the Navigation component to implement different platform-specific navigation paradigms like a Tab navigation on iOS or a NavigationDrawer on Android<br/> ‣ Use a login screen for an app</html>",
+      "overviewImage": "preview-assets/appdemos/time-tracking/overviewImage.jpg",
+      "genres": [
+        "Project Management"
+      ],
+      "tags": [
+        "time",
+        "tracking",
+        "work",
+        "projects"
+      ],
+      "tagsAll": [
+        "input",
+        "edit",
+        "todo",
+        "task",
+        "list",
+        "todo",
+        "project",
+        "worklog",
+        "jira",
+        "atlassian",
+        "design",
+        "business",
+        "education",
+        "events",
+        "finance",
+        "productivity",
+        "time",
+        "tab"
+      ],
+      "usedComponents": [
+        "appbutton",
+        "appimage",
+        "apptext",
+        "datepicker",
+        "apptextfield",
+        "sortfilterproxymodel",
+        "storage",
+        "navigation",
+        "floatingactionbutton",
+        "iconbutton",
+        "simplerow"
+      ],
+      "complexity": "Medium",
+      "order": 40,
+      "linesOfCode": 532,
+      "images": [
+        "preview-assets/appdemos/time-tracking/01-android.jpg",
+        "preview-assets/appdemos/time-tracking/01-ios.jpg",
+        "preview-assets/appdemos/time-tracking/02-android.jpg",
+        "preview-assets/appdemos/time-tracking/02-ios.jpg",
+        "preview-assets/appdemos/time-tracking/03-android.jpg",
+        "preview-assets/appdemos/time-tracking/03-ios.jpg"
+      ],
+      "main": "qml/TimeTrackingMain.qml",
+      "cidePath": "-/ide/project/root/time-tracking/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/time-tracking/TimeTracking.pro",
+        "folder": "examples/appdemos/time-tracking"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-jira-tima-mini-example/"
+    },
+    "input-validation": {
+      "id": "input-validation",
+      "title": "Input Form Validation App",
+      "shortTitle": "Input Forms Demo App",
+      "sourcePath": "appdemos/input-validation",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "User input validation demo app",
+      "description": "<html>This demo shows how to use Felgo components to show user input forms and validate the input. Validations are done for email, password and generic text fields.<br/><br/>The demo shows how to:<br/> ‣ Use Felgo components for user input<br/> ‣ Validate input and show error messages<br/> ‣ Show an image picker for user input</html>",
+      "overviewImage": "preview-assets/appdemos/input-validation/overviewImage.png",
+      "genres": [
+        "Other"
+      ],
+      "tags": [
+        "input",
+        "validation",
+        "form",
+        "field"
+      ],
+      "tagsAll": [
+        "input",
+        "validation",
+        "form",
+        "field",
+        "text",
+        "edit",
+        "register",
+        "signup",
+        "parenting"
+      ],
+      "usedComponents": [
+        "apptext",
+        "apptextfield",
+        "appcheckbox",
+        "appbutton",
+        "listpage",
+        "navigation",
+        "navigationitem",
+        "simplerow",
+        "textfieldrow"
+      ],
+      "complexity": "Simple",
+      "order": 180,
+      "linesOfCode": 274,
+      "images": [
+        "preview-assets/appdemos/input-validation/01-android.jpg",
+        "preview-assets/appdemos/input-validation/01-ios.jpg",
+        "preview-assets/appdemos/input-validation/02-android.jpg",
+        "preview-assets/appdemos/input-validation/02-ios.jpg"
+      ],
+      "main": "qml/InputValidationMain.qml",
+      "cidePath": "-/ide/project/root/input-validation/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/input-validation/InputValidation.pro",
+        "folder": "examples/appdemos/input-validation"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-input-validation-example/"
+    },
+    "property-cross": {
+      "id": "property-cross",
+      "title": "Real Estate App",
+      "shortTitle": "Real Estate App",
+      "sourcePath": "appdemos/property-cross",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Real estate marketplace app",
+      "description": "<html>The demo shows how to search for property listings based on a search term or the user’s current location. It's possible to save favorites for Simple access later on.<br/><br/>The demo title 'Property Cross' derives from a project called PropertyCross that helps to select a cross-platform mobile framework for mobile apps. Thus the demo is the implementation for Felgo Apps.<br/><br/>The demo shows how to:<br/> ‣ Load and parse JSON data from a backend<br/> ‣ Save settings<br/> ‣ Encapsulate your network and data model code into dedicated QML files</html>",
+      "overviewImage": "preview-assets/appdemos/property-cross/overviewImage.png",
+      "genres": [
+        "Real Estate"
+      ],
+      "tags": [
+        "real estate",
+        "search",
+        "location",
+        "marketplace"
+      ],
+      "tagsAll": [
+        "property",
+        "cross",
+        "search",
+        "location",
+        "input",
+        "house",
+        "shopping",
+        "marketplace",
+        "house",
+        "travel"
+      ],
+      "usedComponents": [
+        "apptext",
+        "apptextfield",
+        "appimage",
+        "appbutton",
+        "applistview",
+        "simplerow",
+        "iconbuttonbaritem",
+        "flickablepage"
+      ],
+      "complexity": "Medium",
+      "order": 130,
+      "linesOfCode": 517,
+      "images": [
+        "preview-assets/appdemos/property-cross/01-android.jpg",
+        "preview-assets/appdemos/property-cross/01-ios.jpg",
+        "preview-assets/appdemos/property-cross/02-android.jpg",
+        "preview-assets/appdemos/property-cross/02-ios.jpg",
+        "preview-assets/appdemos/property-cross/03-android.jpg",
+        "preview-assets/appdemos/property-cross/03-ios.jpg"
+      ],
+      "main": "qml/PropertyCrossMain.qml",
+      "cidePath": "-/ide/project/root/property-cross/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/property-cross/PropertyCross.pro",
+        "folder": "examples/appdemos/property-cross"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-propertycross-example/"
+    },
+    "bike-sharing": {
+      "id": "bike-sharing",
+      "title": "Bike Sharing App",
+      "shortTitle": "Bike Sharing App",
+      "sourcePath": "appdemos/bike-sharing",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Location-based and map-centric bike or car sharing app",
+      "description": "<html>This demo shows available rental bikes for a bike sharing or car sharing service. The demo uses a mapview to show available rental stations around the user’s position (GPS). Specific stations can be marked as favorites for Simple access.<br/><br/>The demo shows how to:<br/> ‣ Display and customize a map<br/> ‣ Get the user's current location and display it on a map<br/> ‣ Load and parse XML data<br/> ‣ Show custom map markers with different styles on a map<br/> ‣ Show a custom view on top of the map<br/> ‣ Customize the look and feel with custom colors and fonts</html>",
+      "overviewImage": "preview-assets/appdemos/bike-sharing/overviewImage.png",
+      "genres": [
+        "Transportation"
+      ],
+      "tags": [
+        "transportation",
+        "maps",
+        "location",
+        "sharing",
+        "bike",
+        "car"
+      ],
+      "tagsAll": [
+        "search",
+        "location",
+        "bike",
+        "sharing",
+        "mapview",
+        "maps",
+        "openstreetmap",
+        "gps",
+        "osm",
+        "openstreetmap",
+        "mapbox",
+        "car",
+        "rest",
+        "network",
+        "uber",
+        "transportation",
+        "beauty",
+        "entertainment",
+        "health",
+        "lifestyle",
+        "medical",
+        "travel",
+        "xml"
+      ],
+      "usedComponents": [
+        "apptext",
+        "appmap",
+        "iconbutton",
+        "xmllistmodel"
+      ],
+      "complexity": "Simple",
+      "order": 70,
+      "linesOfCode": 405,
+      "images": [
+        "preview-assets/appdemos/bike-sharing/01-android.jpg",
+        "preview-assets/appdemos/bike-sharing/01-ios.jpg",
+        "preview-assets/appdemos/bike-sharing/02-android.jpg",
+        "preview-assets/appdemos/bike-sharing/02-ios.jpg"
+      ],
+      "main": "qml/BikeSharingMain.qml",
+      "cidePath": "-/ide/project/root/bike-sharing/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/bike-sharing/BikeSharing.pro",
+        "folder": "examples/appdemos/bike-sharing"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-maps-example/"
+    },
+    "shopping-list": {
+      "id": "shopping-list",
+      "title": "Shopping List App",
+      "shortTitle": "Shopping List App",
+      "sourcePath": "appdemos/shopping-list",
+      "runnable": [
+        "ios",
+        "android"
+      ],
+      "shortDescription": "Grocery shopping list app",
+      "description": "<html>This demo shows how to create a shopping list app that uses the Firebase real-time database and login to sync across devices. It also shows how to make an app with offline capabilities and sync changes as soon as there is an Internet connection available again.<br/><br/>The demo shows how to:<br/> ‣ Use the Felgo Firebase components to create a realtime-sync and offline-ready app<br/> ‣ Use the Firebase changed listeners to show changes from data in real-time within the user interface</html>",
+      "overviewImage": "preview-assets/appdemos/shopping-list/overview.gif",
+      "genres": [
+        "Retail"
+      ],
+      "tags": [
+        "shopping",
+        "list",
+        "grocery"
+      ],
+      "tagsAll": [
+        "input",
+        "edit",
+        "shopping",
+        "task",
+        "list",
+        "firebase",
+        "sync",
+        "offline",
+        "realtime"
+      ],
+      "usedComponents": [
+        "apptextfield",
+        "appcheckbox",
+        "appbutton",
+        "firebase",
+        "firebaseauth",
+        "firebasedatabase",
+        "firebaseconfig",
+        "simplerow"
+      ],
+      "complexity": "Complex",
+      "order": 170,
+      "linesOfCode": 418,
+      "images": [
+        "preview-assets/appdemos/shopping-list/01-android.jpg",
+        "preview-assets/appdemos/shopping-list/01-ios.jpg",
+        "preview-assets/appdemos/shopping-list/01-media.jpg",
+        "preview-assets/appdemos/shopping-list/02-android.jpg",
+        "preview-assets/appdemos/shopping-list/02-ios.jpg"
+      ],
+      "main": "qml/ShoppingListMain.qml",
+      "cidePath": "-/ide/project/root/shopping-list/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/shopping-list/ShoppingList.pro",
+        "folder": "examples/appdemos/shopping-list"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-shopping-list-example/"
+    },
+    "social-network": {
+      "id": "social-network",
+      "title": "Social Network App",
+      "shortTitle": "Social Network App",
+      "sourcePath": "appdemos/social-network",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "A Twitter-like social network app",
+      "description": "<html>The Twitter-like social network app shows how to build layouts like in the official Twitter app for iOS and Android. It includes all common navigation concepts and demonstrates how to use the NavigationStack component within a root Navigation item.<br/><br/>The demo shows how to: <br/> ‣ Build up a user interface for browsing content<br/> ‣ Use Felgo navigation components<br/> ‣ Parse data from an API and display it in listviews<br/> ‣ Apply some advanced styling and UI effects like blur or sticky navigation headers</html>",
+      "overviewImage": "preview-assets/appdemos/social-network/overviewImage.png",
+      "genres": [
+        "Social"
+      ],
+      "tags": [
+        "social network",
+        "messaging",
+        "chat"
+      ],
+      "tagsAll": [
+        "social",
+        "messaging",
+        "chat",
+        "social",
+        "facebook",
+        "twitter",
+        "tweet",
+        "network",
+        "art",
+        "beauty",
+        "communication",
+        "dating",
+        "entertainment",
+        "events",
+        "food",
+        "health",
+        "lifestyle",
+        "news",
+        "photography"
+      ],
+      "usedComponents": [
+        "apptext",
+        "jsonlistmodel",
+        "navigationstack",
+        "listpage",
+        "icon",
+        "navigation"
+      ],
+      "complexity": "Medium",
+      "order": 60,
+      "linesOfCode": 964,
+      "images": [
+        "preview-assets/appdemos/social-network/01-android.jpg",
+        "preview-assets/appdemos/social-network/01-ios.jpg",
+        "preview-assets/appdemos/social-network/02-android.jpg",
+        "preview-assets/appdemos/social-network/02-ios.jpg",
+        "preview-assets/appdemos/social-network/03-android.jpg",
+        "preview-assets/appdemos/social-network/03-ios.jpg"
+      ],
+      "main": "qml/TwitterMain.qml",
+      "cidePath": "-/ide/project/root/social-network/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/social-network/SocialNetwork.pro",
+        "folder": "examples/appdemos/social-network"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-twitter-example/"
+    },
+    "music-streaming": {
+      "id": "music-streaming",
+      "title": "Music Streaming App",
+      "shortTitle": "Music Streaming App",
+      "sourcePath": "appdemos/music-streaming-app",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Spotify-like music streaming app",
+      "description": "<html>This demo shows how to build a music streaming app to browse playlists, search for content and show playback controls.<br/><br/>The demo shows how to:<br/> ‣ Create content-centric UIs<br/> ‣ Use audio playback and playback controls in apps<br/> ‣ Use fulltext search to browse content</html>",
+      "overviewImage": "preview-assets/appdemos/music-streaming-app/overviewImage.png",
+      "genres": [
+        "Entertainment"
+      ],
+      "tags": [
+        "music",
+        "streaming",
+        "podcasts",
+        "audio"
+      ],
+      "tagsAll": [
+        "entertainment",
+        "podcasts",
+        "audio",
+        "music",
+        "spotify",
+        "youtube",
+        "design"
+      ],
+      "usedComponents": [
+        "audio",
+        "appbutton",
+        "appimage",
+        "applistview",
+        "apptext",
+        "appflickable",
+        "appswitch",
+        "flickablepage",
+        "jsonlistmodel",
+        "listpage",
+        "iconbuttonbaritem",
+        "simplerow",
+        "storage"
+      ],
+      "complexity": "Medium",
+      "order": 30,
+      "linesOfCode": 2430,
+      "images": [
+        "preview-assets/appdemos/music-streaming-app/01-android.jpg",
+        "preview-assets/appdemos/music-streaming-app/01-ios.jpg",
+        "preview-assets/appdemos/music-streaming-app/02-android.jpg",
+        "preview-assets/appdemos/music-streaming-app/02-ios.jpg",
+        "preview-assets/appdemos/music-streaming-app/03-android.jpg",
+        "preview-assets/appdemos/music-streaming-app/03-ios.jpg"
+      ],
+      "main": "qml/Main.qml",
+      "cidePath": "-/ide/project/root/music-streaming/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/music-streaming-app/music-streaming-app.pro",
+        "folder": "examples/appdemos/music-streaming-app"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-music-streaming-app-example/"
+    },
+    "component-showcase": {
+      "id": "component-showcase",
+      "title": "Component Showcase App",
+      "shortTitle": "Component Showcase App",
+      "sourcePath": "appdemos/component-showcase",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Felgo component collection and showcase app",
+      "description": "<html>This demo shows the most important Felgo Apps features combined in a single app with native user experience (UX) and fluid UI animations:<br/><br/> ‣ Theming and native platform styles<br/> ‣ Native dialogs, camera/image picker and share features<br/> ‣ Embedded maps and GPS positioning<br/> ‣ Embedded video, audio and WebView<br/> ‣ Shader effects and fluid animations<br/> ‣ Native styled controls and Qt Quick Controls<br/> ‣ Local storage, app navigation, lists and sections<br/><br/>The demo shows how to:<br/> ‣ Use Felgo components in your own app<br/> ‣ Create animations<br/> ‣ Apply styling and theming for components</html>",
+      "overviewImage": "preview-assets/appdemos/component-showcase/overviewImage.png",
+      "genres": [
+        "Other"
+      ],
+      "tags": [
+        "components",
+        "listview",
+        "edit",
+        "input",
+        "navigation",
+        "animations",
+        "effects"
+      ],
+      "tagsAll": [
+        "components",
+        "listview",
+        "edit",
+        "input",
+        "navigation",
+        "animations",
+        "effects",
+        "showcase"
+      ],
+      "usedComponents": [
+        "appactivityindicator",
+        "appbutton",
+        "appcard",
+        "appcheckbox",
+        "appflickable",
+        "appimage",
+        "appmap",
+        "appmodal",
+        "apprangeslider",
+        "camera",
+        "datepicker",
+        "simplerow",
+        "appslider",
+        "appswitch",
+        "apptext",
+        "apptextfield",
+        "datepicker",
+        "mapquickitem",
+        "mediaplayer",
+        "floatingactionbutton",
+        "icon",
+        "iconbutton",
+        "simplesection",
+        "textfieldrow",
+        "scrollindicator",
+        "videooutput",
+        "video"
+      ],
+      "complexity": "Simple",
+      "order": 20,
+      "linesOfCode": 2322,
+      "images": [
+        "preview-assets/appdemos/component-showcase/01-android.jpg",
+        "preview-assets/appdemos/component-showcase/01-ios.jpg",
+        "preview-assets/appdemos/component-showcase/02-android.jpg",
+        "preview-assets/appdemos/component-showcase/02-ios.jpg",
+        "preview-assets/appdemos/component-showcase/03-android.jpg",
+        "preview-assets/appdemos/component-showcase/03-ios.jpg"
+      ],
+      "main": "qml/ShowcaseMain.qml",
+      "cidePath": "-/ide/project/root/component-showcase/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/component-showcase/ComponentShowcase.pro",
+        "folder": "examples/appdemos/component-showcase"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-showcase-example/"
+    },
+    "qtws": {
+      "id": "qtws",
+      "title": "Qt World Summit Conference App",
+      "shortTitle": "Conference App",
+      "sourcePath": "appdemos/qtws",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Conference management and networking app",
+      "description": "<html>The official Qt World Summit Conference App is a full-featured conference management app made by Felgo:<br/><br/> ‣ Browse the Qt World Summit conference schedule.<br/> ‣ See detailed information for all talks, speakers and tracks.<br/> ‣ Manage your personal schedule by adding talks to your favorites.<br/> ‣ Connect with other conference participants, chat & schedule meetings.<br/> ‣ Scan attendee QR codes and export contacts to your phone or via email.<br/> ‣ Get notified of upcoming favorited sessions with push notifications.<br/> ‣ Full-text search of all speakers & talks.<br/> ‣ Auto-cache the conference data & images locally to also work offline.<br/> ‣ Customize the UI and switch between different native styles and colors.<br/> ‣ Earn points for each app-start and favored talk to climb the leaderboard.<br/><br/>The demo shows how to:<br/> ‣ Support multiple platforms, screen sizes and screen resolutions<br/> ‣ Provide a native look and feel for different platforms from a single code base<br/> ‣ Use native device features like confirmation dialogs<br/> ‣ Use the social features like SocialView, ChatView and Leaderboards</html>",
+      "overviewImage": "preview-assets/appdemos/qtws/overviewImage.png",
+      "genres": [
+        "Event Management"
+      ],
+      "tags": [
+        "conference",
+        "people",
+        "networking",
+        "social"
+      ],
+      "tagsAll": [
+        "qtws",
+        "world",
+        "summit",
+        "conference",
+        "contact",
+        "speaker",
+        "people",
+        "talks",
+        "venue",
+        "schedule",
+        "tracks",
+        "social",
+        "news",
+        "scan"
+      ],
+      "usedComponents": [
+        "amplitude",
+        "appbutton",
+        "appimage",
+        "appswitch",
+        "apptabbar",
+        "apptext",
+        "applistview",
+        "facebook",
+        "felgomultiplayer",
+        "felgogamenetwork",
+        "listpage",
+        "socialview",
+        "notification",
+        "notificationmanager",
+        "simplerow",
+        "simplesection",
+        "webstorage"
+      ],
+      "complexity": "Complex",
+      "order": 10,
+      "linesOfCode": 6407,
+      "images": [
+        "preview-assets/appdemos/qtws/01-android.jpg",
+        "preview-assets/appdemos/qtws/01-ios.jpg",
+        "preview-assets/appdemos/qtws/02-android.jpg",
+        "preview-assets/appdemos/qtws/02-ios.jpg",
+        "preview-assets/appdemos/qtws/03-android.jpg",
+        "preview-assets/appdemos/qtws/03-ios.jpg",
+        "preview-assets/appdemos/qtws/04-android.jpg",
+        "preview-assets/appdemos/qtws/04-ios.jpg"
+      ],
+      "main": "qml/QtWSMain.qml",
+      "cidePath": "-/ide/project/root/qtws/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/qtws/QtWS.pro",
+        "folder": "examples/appdemos/qtws"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-qtws-example/"
+    },
+    "youtube-player": {
+      "id": "youtube-player",
+      "title": "YouTube Video Player App",
+      "shortTitle": "Video Player App",
+      "sourcePath": "appdemos/youtube-player",
+      "runnable": [
+        "osx",
+        "linux",
+        "ios",
+        "android"
+      ],
+      "shortDescription": "YouTube video streaming and playback Demo",
+      "description": "<html>This example allows you to watch videos and browse the playlists of the Felgo YouTube Channel. The settings allow to change the target channel and the spotlight playlist, which is shown as the first tab for quick-access.<br/><br/>The demo shows how to:<br/> ‣ Use the YouTubeWebPlayer component to embed YouTube videos<br/> ‣ Work with the YouTube Data API to browse channels and fetch video data<br/> ‣ See detailed information for all videos, including quick links to external resources linked in the video description<br/> ‣ Use the online state of the app to notify users in case the app is offline and can't access YouTube<br/> ‣ Store local app settings like the target YouTube user/channel and spotlight playlist</html>",
+      "overviewImage": "preview-assets/appdemos/youtube-player/overviewImage.png",
+      "genres": [
+        "Entertainment"
+      ],
+      "tags": [
+        "video",
+        "audio",
+        "podcasts",
+        "music",
+        "entertainment"
+      ],
+      "tagsAll": [
+        "entertainment",
+        "podcasts",
+        "audio",
+        "music",
+        "video",
+        "channel",
+        "youtube",
+        "vimeo",
+        "movie",
+        "art"
+      ],
+      "usedComponents": [
+        "appbutton",
+        "appimage",
+        "applistview",
+        "apptext",
+        "listpage",
+        "icon",
+        "navigation",
+        "storage",
+        "youtubewebplayer"
+      ],
+      "complexity": "Medium",
+      "order": 150,
+      "linesOfCode": 832,
+      "images": [
+        "preview-assets/appdemos/youtube-player/01-android.jpg",
+        "preview-assets/appdemos/youtube-player/01-ios.jpg",
+        "preview-assets/appdemos/youtube-player/02-android.jpg",
+        "preview-assets/appdemos/youtube-player/02-ios.jpg",
+        "preview-assets/appdemos/youtube-player/03-android.jpg",
+        "preview-assets/appdemos/youtube-player/03-ios.jpg"
+      ],
+      "main": "qml/YouTubePlayerMain.qml",
+      "cidePath": "-/ide/project/root/youtube-player/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/youtube-player/YouTube-Player.pro",
+        "folder": "examples/appdemos/youtube-player"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-youtube-player-example/"
+    },
+    "cpp-qml-integration": {
+      "id": "cpp-qml-integration",
+      "title": "C++ QML Integration Demo App",
+      "shortTitle": "C++ QML Integration Demo App",
+      "sourcePath": "appdemos/cpp-qml-integration",
+      "runnable": [],
+      "shortDescription": "C++ and QML communication demo app",
+      "description": "<html>This example shows the different forms of C++ and QML integrations like context properties and registered QML types. This example is the tutorial result from How to Expose a Qt C++ Class with Signals and Slots to QML.<br/><br/>The demo shows how to:<br/> ‣ Connect C++ and QML<br/> ‣ Use context properties in your QML code<br/> ‣ Register new QML types from C++ for your QML code</html>",
+      "overviewImage": "preview-assets/appdemos/cpp-qml-integration/overviewImage.png",
+      "genres": [
+        "Other"
+      ],
+      "tags": [
+        "c++",
+        "architecture",
+        "integration",
+        "native"
+      ],
+      "tagsAll": [
+        "c++",
+        "architecture",
+        "integration",
+        "native",
+        "cpp",
+        "communication",
+        "house",
+        "embed"
+      ],
+      "usedComponents": [
+        "appbutton",
+        "apptext",
+        "navigation"
+      ],
+      "complexity": "Complex",
+      "order": 190,
+      "linesOfCode": 162,
+      "images": [
+        "preview-assets/appdemos/cpp-qml-integration/01-android.jpg",
+        "preview-assets/appdemos/cpp-qml-integration/01-ios.jpg",
+        "preview-assets/appdemos/cpp-qml-integration/02-android.jpg",
+        "preview-assets/appdemos/cpp-qml-integration/02-ios.jpg"
+      ],
+      "main": "qml/Main.qml",
+      "cidePath": "-/ide/project/root/cpp-qml-integration/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/cpp-qml-integration/Cpp-qml-integration.pro",
+        "folder": "examples/appdemos/cpp-qml-integration"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-cpp-qml-integration-example/"
+    },
+    "cpp-backend-charts-qml": {
+      "id": "cpp-backend-charts-qml",
+      "title": "C++ Backend Charts Demo App",
+      "shortTitle": "C++ Backend Charts Demo App",
+      "sourcePath": "appdemos/cpp-backend-charts-qml",
+      "runnable": [],
+      "shortDescription": "Chart from a C++ model demo app",
+      "description": "<html>This example shows how to combine a C++ backend that provides the model data for a frontend created in QML. The data is displayed with QML with Qt Charts for both 2D and 3D charts. It also includes shader effects for applying animations and effects to the charts.<br/><br/>The demo shows how to:<br/> ‣ Connect C++ and QML to use a C++ backend for QML frontends<br/> ‣ Show 2D and 3D charts in your app<br/> ‣ Apply shader effects and advanced animations</html>",
+      "overviewImage": "preview-assets/appdemos/cpp-backend-charts-qml/overviewImage.png",
+      "genres": [
+        "Other"
+      ],
+      "tags": [
+        "graph",
+        "charts",
+        "c++",
+        "integration",
+        "model",
+        "3D",
+        "architecture"
+      ],
+      "tagsAll": [
+        "graph",
+        "charts",
+        "c++",
+        "integration",
+        "model",
+        "cpp",
+        "bar",
+        "stack",
+        "3d"
+      ],
+      "usedComponents": [
+        "appbutton",
+        "apptext",
+        "camera",
+        "mediaplayer",
+        "navigation",
+        "barseries",
+        "chartview",
+        "barset",
+        "valuesaxis",
+        "barcategoryaxis"
+      ],
+      "complexity": "Complex",
+      "order": 200,
+      "linesOfCode": 351,
+      "images": [
+        "preview-assets/appdemos/cpp-backend-charts-qml/01-android.jpg",
+        "preview-assets/appdemos/cpp-backend-charts-qml/01-ios.jpg",
+        "preview-assets/appdemos/cpp-backend-charts-qml/02-android.jpg",
+        "preview-assets/appdemos/cpp-backend-charts-qml/02-ios.jpg",
+        "preview-assets/appdemos/cpp-backend-charts-qml/03-android.jpg",
+        "preview-assets/appdemos/cpp-backend-charts-qml/03-ios.jpg"
+      ],
+      "main": "qml/Main.qml",
+      "cidePath": "-/ide/project/root/cpp-backend-charts-qml/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/cpp-backend-charts-qml/Cpp-backend-charts-qml.pro",
+        "folder": "examples/appdemos/cpp-backend-charts-qml"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-cpp-backend-charts-qml-example/"
+    },
+    "basicapp": {
+      "id": "basicapp",
+      "title": "MVC Architecture Demo App",
+      "shortTitle": "MVC Architecture Demo App",
+      "sourcePath": "appdemos/basicapp",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "Basic Todo list demo app",
+      "description": "<html>The demo demonstrates a todo list project with all core elements set up. It includes app navigation, basic controls, REST API access and offline caching.<br/><br/>The demo shows how to:<br/> ‣ Set up a basic Felgo project with REST API access and caching<br/> ‣ Good practice architecture for a typical mobile app</html>",
+      "overviewImage": "preview-assets/appdemos/basicapp/overviewImage.png",
+      "genres": [
+        "Other"
+      ],
+      "tags": [
+        "mvc",
+        "architecture",
+        "rest",
+        "api",
+        "caching"
+      ],
+      "tagsAll": [
+        "input",
+        "field",
+        "text",
+        "edit",
+        "register",
+        "signup",
+        "mvc",
+        "architecture",
+        "rest",
+        "api",
+        "caching"
+      ],
+      "usedComponents": [
+        "apptext",
+        "apptextfield",
+        "storage",
+        "appbutton",
+        "listpage",
+        "navigation",
+        "navigationitem"
+      ],
+      "complexity": "Simple",
+      "order": 210,
+      "linesOfCode": 475,
+      "images": [
+        "preview-assets/appdemos/basicapp/01-android.jpg",
+        "preview-assets/appdemos/basicapp/01-ios.jpg",
+        "preview-assets/appdemos/basicapp/02-android.jpg",
+        "preview-assets/appdemos/basicapp/02-ios.jpg",
+        "preview-assets/appdemos/basicapp/03-android.jpg",
+        "preview-assets/appdemos/basicapp/03-ios.jpg"
+      ],
+      "main": "qml/Main.qml",
+      "cidePath": "-/ide/project/root/basicapp/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/basicapp/BasicApp.pro",
+        "folder": "examples/appdemos/basicapp"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-basicapp-example/"
+    },
+    "workout-app": {
+      "id": "workout-app",
+      "title": "Workout & GPS-Tracker App",
+      "shortTitle": "GPS Workout App",
+      "sourcePath": "appdemos/workout-app",
+      "runnable": [
+        "windows",
+        "osx",
+        "linux",
+        "ios",
+        "android",
+        "wasm"
+      ],
+      "shortDescription": "GPS-recording and social network fitness app",
+      "description": "<html>This demo shows a feed of fitness activities from friends and allows to record a new activity based on a GPS track. It shows how to implement a workout app UI and use the user location to record, save and display GPS track on a map.<br/><br/>The demo shows how to:<br/> ‣ Get the user location and display it on a map<br/> ‣ Record GPS waypoints and display them on a map<br/> ‣ Create a social network UI</html>",
+      "genres": [
+        "Fitness"
+      ],
+      "tags": [
+        "workout",
+        "fitness",
+        "running",
+        "cycling",
+        "gps",
+        "social"
+      ],
+      "tagsAll": [
+        "workout",
+        "running",
+        "fitness",
+        "map",
+        "positioning",
+        "gps",
+        "strava",
+        "runtastic",
+        "run",
+        "location",
+        "social network",
+        "beauty",
+        "food",
+        "health",
+        "lifestyle",
+        "medical",
+        "sports"
+      ],
+      "usedComponents": [
+        "appbutton",
+        "appimage",
+        "applistview",
+        "appflickable",
+        "appmap",
+        "appmodal",
+        "appaper",
+        "appslider",
+        "apptext",
+        "apptextfield",
+        "nativeutils",
+        "chartview",
+        "iconbuttonbaritem",
+        "pieseries",
+        "pieslice",
+        "plugin",
+        "pluginparameter",
+        "storage"
+      ],
+      "complexity": "Medium",
+      "order": 50,
+      "linesOfCode": 2682,
+      "images": [
+        "preview-assets/appdemos/workout-app/01-android.jpg",
+        "preview-assets/appdemos/workout-app/01-ios.jpg",
+        "preview-assets/appdemos/workout-app/02-android.jpg",
+        "preview-assets/appdemos/workout-app/02-ios.jpg",
+        "preview-assets/appdemos/workout-app/03-android.jpg",
+        "preview-assets/appdemos/workout-app/03-ios.jpg"
+      ],
+      "main": "qml/Main.qml",
+      "cidePath": "-/ide/project/root/workout-app/edit/",
+      "livePath": "",
+      "desktopPath": {
+        "pro": "examples/appdemos/workout-app/workout-app.pro",
+        "folder": "examples/appdemos/workout-app"
+      },
+      "docLink": "https://felgo.com/doc/felgo-appdemos-workout-app-example/"
+    }
+  }
+}

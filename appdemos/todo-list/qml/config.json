@@ -1,0 +1,8 @@
+{
+  "title": "Todo List",
+  "identifier": "net.vplay.demos.TodoList",
+  "orientation": "auto",
+  "versioncode": 1,
+  "versionname": "1.0",
+  "stage": "test"
+}
