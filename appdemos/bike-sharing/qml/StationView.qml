@@ -27,17 +27,21 @@ GridLayout {
 
     AppText {
       id: innerText
-      anchors.top: parent.top
-      anchors.horizontalCenter: parent.horizontalCenter
+      anchors {
+        top: parent.top
+        horizontalCenter: parent.horizontalCenter
+      }
       font.pixelSize: dp(24)
       color: blueDarkColor
       text: _.stationName
     }
 
     IconButton {
-      anchors.left: parent.left
-      anchors.leftMargin: dp(10)
-      anchors.verticalCenter: innerText.verticalCenter
+      anchors {
+        left: parent.left
+        leftMargin: dp(10)
+        verticalCenter: innerText.verticalCenter
+      }
       icon: IconType.angleleft
       color: blueDarkColor
       selectedColor: blueLightColor
@@ -51,9 +55,11 @@ GridLayout {
 
     IconButton {
       id: favButton
-      anchors.right: parent.right
-      anchors.rightMargin: dp(10)
-      anchors.verticalCenter: innerText.verticalCenter
+      anchors {
+        right: parent.right
+        rightMargin: dp(10)
+        verticalCenter: innerText.verticalCenter
+      }
       icon: IconType.hearto
       selectedIcon: IconType.heart
       color: blueDarkColor

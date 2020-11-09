@@ -3,6 +3,7 @@ import QtQuick 2.0
 import QtLocation 5.5
 import QtPositioning 5.5
 
+
 App {
   id: app
 
@@ -86,7 +87,7 @@ App {
 
         // Add favs
         for (var i = 0; i < stationsModel.count; i++) {
-          var station = stationsModel.get(i)
+          const station = stationsModel.get(i)
           if (settings.isFavorited(station.internalId)) {
             append({
                      internalId: station.internalId,
@@ -108,9 +109,9 @@ App {
         var currentIndex = -1
 
         for (var i = 0; i < stationsModel.count; i++) {
-          var station = stationsModel.get(i)
+          const station = stationsModel.get(i)
 
-          var distance = map.userPosition.coordinate.distanceTo(QtPositioning.coordinate(station.latitude, station.longitude))
+          const distance = map.userPosition.coordinate.distanceTo(QtPositioning.coordinate(station.latitude, station.longitude))
           if (currentDistance === -1 || distance < currentDistance) {
             currentDistance = distance
             currentIndex = i
@@ -119,7 +120,7 @@ App {
 
         // Get station
         if (currentIndex !== -1) {
-          var s = stationsModel.get(currentIndex)
+          const s = stationsModel.get(currentIndex)
 
           set(0, {
                 internalId: s.internalId,
@@ -131,7 +132,6 @@ App {
         }
       }
     }
-
 
     NavigationStack {
       splitView: false
@@ -147,7 +147,7 @@ App {
         property int selectedIndex: -1
 
         onSelectedIndexChanged: {
-          var selectedStation = stationsModel.get(selectedIndex)
+          const selectedStation = stationsModel.get(selectedIndex)
           if (selectedStation && selectedIndex >= 0) {
             currentStationView.stationName = selectedStation.name
             currentStationView.stationBikes = selectedStation.freeBikes
@@ -170,9 +170,11 @@ App {
           PageControl {
             id: pageControl
 
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: parent.top
-            anchors.topMargin: Theme.statusBarHeight + dp(10)
+            anchors {
+              horizontalCenter: parent.horizontalCenter
+              top: parent.top
+              topMargin: Theme.statusBarHeight + dp(10)
+            }
 
             opacity: page.selectedIndex >= 0 ? 0 : 1
 
@@ -196,8 +198,10 @@ App {
               pageControl.currentPage = currentIndex
             }
 
-            anchors.fill: parent
-            anchors.topMargin: pageControl.y + pageControl.height + dp(10)
+            anchors {
+              fill: parent
+              topMargin: pageControl.y + pageControl.height + dp(10)
+            }
 
             visible: !currentStationView.visible
 
@@ -262,11 +266,12 @@ App {
         AppMap {
           id: map
 
-          anchors.top: header.bottom
-          anchors.left: parent.left
-          anchors.right: parent.right
-          anchors.bottom: parent.bottom
-
+          anchors {
+            top: header.bottom
+            left: parent.left
+            right: parent.right
+            bottom: parent.bottom
+          }
           showUserPosition: true
 
           plugin: Plugin {
@@ -354,10 +359,12 @@ App {
 
         IconButton {
           icon: IconType.locationarrow
-          anchors.left: parent.left
-          anchors.bottom: parent.bottom
-          anchors.leftMargin: dp(10)
-          anchors.bottomMargin: dp(10)
+          anchors {
+            left: parent.left
+            bottom: parent.bottom
+            leftMargin: dp(10)
+            bottomMargin: dp(10)
+          }
 
           enabled: map.userPositionAvailable
 
