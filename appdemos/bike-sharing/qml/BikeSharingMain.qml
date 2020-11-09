@@ -94,7 +94,9 @@ App {
                      name: station.name,
                      freeBoxes: station.freeBoxes,
                      freeBikes: station.freeBikes,
-                     favorited: settings.isFavorited(station.internalId)
+                     favorited: settings.isFavorited(station.internalId),
+                     lat: station.latitude,
+                     lon: station.longitude
                    })
           }
         }
@@ -127,7 +129,9 @@ App {
                 name: s.name,
                 freeBoxes: s.freeBoxes,
                 freeBikes: s.freeBikes,
-                favorited: settings.isFavorited(s.internalId)
+                favorited: settings.isFavorited(s.internalId),
+                lat: station.latitude,
+                lon: station.longitude
               })
         }
       }
@@ -184,6 +188,8 @@ App {
             activeTintColor: blueLightColor
 
             onPageSelected: {
+              const station = favsModel.get(index)
+              map.center = QtPositioning.coordinate(station.lat, station.lon)
               innerList.scrollToPage(index)
             }
 
@@ -296,6 +302,14 @@ App {
 
           // Defaults to Vienna, AT
           center: QtPositioning.coordinate(48.208417, 16.372472)
+
+          Behavior on center {
+            CoordinateAnimation {
+              duration: 400
+              easing.type: Easing.InOutQuint
+             }
+          }
+
           zoomLevel: 15
           Component.onCompleted: {
             map.center = QtPositioning.coordinate(48.208417, 16.372472)
@@ -316,6 +330,7 @@ App {
             model: stationsModel
 
             delegate: MapQuickItem {
+              id: mapItemDelegate
               coordinate: QtPositioning.coordinate(latitude, longitude)
 
               anchorPoint.x: image.width * 0.5
@@ -350,6 +365,7 @@ App {
                   anchors.fill: parent
                   onClicked: {
                     page.selectedIndex = index
+                    map.center = mapItemDelegate.coordinate
                   }
                 }
               }
