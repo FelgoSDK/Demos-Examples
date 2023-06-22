@@ -1,0 +1,8 @@
+{
+    "title": "Felgo App",
+    "identifier": "com.felgo.demos.qtquickfelgo",
+    "orientation": "auto",
+    "versioncode": 1,
+    "versionname": "1.0.0",
+    "stage": "test"
+}

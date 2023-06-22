@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets</file>
+        <file>assets/qmlvideofx</file>
+        <file>qml</file>
+        <file>qml/common</file>
+        <file>qml/controls</file>
+        <file>qml/pages</file>
+        <file>qml/qmlvideofx</file>
+        <file>qml/qmlvideofx/qml</file>
+        <file>qml/qmlvideofx/shaders</file>
+    </qresource>
+</RCC>
