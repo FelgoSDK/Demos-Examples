@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>@APPNAME@</title>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    #qtstatus {
+      margin-top: 10px;
+    }
+
+    /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+    canvas {
+      border: 0px none;
+      background-color: white;
+      height: 100%;
+      width: 100%;
+    }
+
+    /* The contenteditable property is set to true for the canvas in order to support
+         clipboard events. Hide the resulting focus frame and set the cursor back to
+         the default cursor. */
+    canvas {
+      outline: 0px solid transparent;
+      caret-color: transparent;
+      cursor: default
+    }
+  </style>
+</head>
+
+<body onload="init()">
+  <figure style="overflow:visible;" id="qtspinner">
+    <center style="margin-top:1.5em; line-height:150%">
+      <img src="felgo-logo.png" width="150" height="150" style="display:block; margin-bottom: 10px;"></img>
+      <strong>@APPNAME@</strong>
+      <div id="qtstatus"></div>
+      <noscript>JavaScript is disabled. Please enable JavaScript to use this application.</noscript>
+    </center>
+  </figure>
+  <canvas id="qtcanvas" oncontextmenu="event.preventDefault()" contenteditable="true"></canvas>
+
+    <!-- HTML Frontend -->
+  <div id="inputArea" style="position: fixed; bottom: 0; background-color: hsla(0, 20%, 60%, 0.3); padding: 8px; padding-top: 0px; display: none;">
+    <style>
+        label { font-size: 40px; }
+        input,button,span { font-size: 20px; }
+        input { width: 500px;}
+    </style>
+    <label for="search1" style="color: red;">●</label>
+    <input type="text" id="search1" name="search1" value="Reuchlinstraße 10-11, 10553 Berlin">
+    <span id="routeLengthText" style="color: red; font-weight: bold;"></span>
+    <br>
+    <label for="search2" style="color: darkred;">●</label>
+    <input type="text" id="search2" name="search2" value="Kolonitzgasse 9, 1030 Wien">
+    <button id="routeButton" type="button" onclick="triggerRouting()">Route!</button>
+  </div>
+
+  <script type='text/javascript'>
+
+    // WebChannel objects
+    let qWebChannel;
+    let wasmTransport = { }
+    let webObject;
+    let sharedRouteHandler;
+
+    //Avoid cross origin resource restrictions, modify accordingly
+    // Note: for production ready applications use your own implementation of cors-anywhere.
+    (function () {
+      var cors_api_host = 'felgo-cors-live.herokuapp.com'
+      var cors_api_url = 'https://' + cors_api_host + '/';
+      var slice = [].slice;
+      var origin = window.location.protocol + '//' + window.location.host;
+      var open = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function () {
+        var args = slice.call(arguments);
+        var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+        if (targetOrigin.indexOf('api.tiles.mapbox.com') > -1 &&
+          targetOrigin[1] !== cors_api_host) {
+          args[1] = cors_api_url + args[1];
+        }
+        return open.apply(this, args);
+      };
+    })();
+
+    //Avoid mixed content
+    // Disable for local testing
+    (function () {
+      var slice = [].slice;
+      var open = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function () {
+        var args = slice.call(arguments);
+        if (args[1].indexOf('http:') == 0) {
+          args[1] = args[1].replace('http://', 'https://');
+        }
+        return open.apply(this, args);
+      };
+    })();
+
+    //Safari 13.1, 14 workaround
+    if ((navigator.userAgent.indexOf('AppleWebKit') != -1) && (navigator.userAgent.indexOf('Version/13') != -1 || navigator.userAgent.indexOf('Version/14') != -1)) {
+      navigator.permissions = {
+        query: function () { }
+      }
+    }
+
+    function triggerRouting() {
+      document.getElementById("routeLengthText").innerText = "";
+      sharedRouteHandler.from = document.getElementById("search1").value
+      sharedRouteHandler.to = document.getElementById("search2").value
+      sharedRouteHandler.doSearch()
+    }     
+
+    // Felgo App initialized from Wasm
+    function felgoInitWebTransport() {     
+      wasmTransport.send = Module.felgoWebTransportSender;
+
+      Module.felgoWebTransportReceiver = function(message) {
+        try {
+          wasmTransport.onmessage({data: message})
+        }catch(err){
+          console.error(err);
+        }
+      }
+
+      new QWebChannel(wasmTransport, function(channel){
+        webObject = channel.objects.webObject;
+
+        webObject.url = window.location.href
+        document.title = webObject.title
+
+        webObject.urlChanged.connect(function() {
+          history.pushState({},"", webObject.url)
+        })
+
+        webObject.titleChanged.connect(function() {
+          document.title = webObject.title;
+        })
+
+        webObject.clientReady("Some message or object")
+
+        //Update the Url from state changes, browser back navigation
+        window.addEventListener('popstate', function (event) {
+          webObject.url = window.location.href
+        })
+
+        // Get a reference to the sharedRouteHandler
+
+        sharedRouteHandler = channel.objects.sharedRouteHandler;
+
+        sharedRouteHandler.lengthChanged.connect(function() {
+          document.getElementById("routeLengthText").innerText = sharedRouteHandler.length + " km"
+        })
+
+        // Display HTML controls
+        document.querySelector('#inputArea').style.display = 'block';
+      })
+    }
+
+    function init() {
+      var spinner = document.querySelector('#qtspinner');
+      var canvas = document.querySelector('#qtcanvas');
+      var status = document.querySelector('#qtstatus')
+
+      var qtLoader = QtLoader({
+        environment: {
+          QML_DISABLE_DISK_CACHE: 1
+        },
+        canvasElements: [canvas],
+        showLoader: function (loaderStatus) {
+          spinner.style.display = 'block';
+          canvas.style.display = 'none';
+          var displayedStatus = loaderStatus;
+          if (displayedStatus === "Compiling" || displayedStatus === "Downloading/Compiling")
+            displayedStatus = "Starting";
+          status.innerHTML = displayedStatus + "...";
+        },
+        showError: function (errorText) {
+          status.innerHTML = errorText;
+          spinner.style.display = 'block';
+          canvas.style.display = 'none';
+        },
+        showExit: function () {
+          return;
+          status.innerHTML = "Application exit";
+          if (qtLoader.exitCode !== undefined)
+            status.innerHTML += " with code " + qtLoader.exitCode;
+          if (qtLoader.exitText !== undefined)
+            status.innerHTML += " (" + qtLoader.exitText + ")";
+          spinner.style.display = 'block';
+          canvas.style.display = 'none';
+        },
+        showCanvas: function () {
+          spinner.style.display = 'none';
+          canvas.style.display = 'block';
+        },
+        statusChanged: function(status) {
+          if (status == "Running") {
+            Module.felgoInitialized = felgoInitWebTransport;
+          }
+        }
+      });
+      qtLoader.loadEmscriptenModule("@APPNAME@");
+    }
+  </script>
+  <script type="text/javascript" src="qtloader.js"></script>
+  <script type="text/javascript" src="qwebchannel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "251103824113",
+    "firebase_url": "https://shoppinglist-v-play.firebaseio.com",
+    "project_id": "shoppinglist-v-play",
+    "storage_bucket": "shoppinglist-v-play.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251103824113:android:a28d26d18b381c88",
+        "android_client_info": {
+          "package_name": "com.vplay.ShoppingList"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251103824113-t6k61ae7gtrv7r62n7pnnh62ksn0v2eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD3p4fdljhaeTu91XCJBOSs3cAQquS8Cc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
