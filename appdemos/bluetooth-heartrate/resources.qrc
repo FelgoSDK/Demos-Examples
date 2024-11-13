@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Main.qml</file>
+        <file>qml/components/BpmDisplay.qml</file>
+        <file>qml/components/Heart.qml</file>
+        <file>qml/model/ApplicationModel.qml</file>
+        <file>qml/model/BleHeartMonitor.qml</file>
+        <file>qml/model/HeartModel.qml</file>
+        <file>qml/pages/DevicesModal.qml</file>
+        <file>qml/pages/MonitorPage.qml</file>
+        <file>assets/heart.png</file>
+    </qresource>
+</RCC>

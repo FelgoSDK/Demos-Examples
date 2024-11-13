@@ -1,0 +1,8 @@
+{
+  "title": "Music-streaming-app",
+  "identifier": "com.felgo.appdemos.musicstreamingapp",
+  "orientation": "portrait",
+  "versioncode": 1,
+  "versionname": "1.0.0",
+  "stage": "test"
+}

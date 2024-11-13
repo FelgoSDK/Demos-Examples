@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest package="com.felgo.appdemos.musicstreamingapp" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0" android:versionCode="1" android:installLocation="auto">
+    <application android:hardwareAccelerated="true" android:allowNativeHeapPointerTagging="false" android:extractNativeLibs="true" android:name="com.felgo.helper.FelgoApplication" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
+                  android:name="com.felgo.helper.FelgoActivity"
+                  android:exported="true"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- Qt internal meta data -->
+            <meta-data android:name="android.app.lib_name" android:value="-- %%INSERT_APP_LIB_NAME%% --"/>
+            <meta-data android:name="android.app.arguments" android:value="-- %%INSERT_APP_ARGUMENTS%% --"/>
+            <meta-data android:name="android.app.extract_android_style" android:value="minimal"/>
+        </activity>
+
+        <!-- file provider needed for letting external apps (like camera) write to a file of the app -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+    </application>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
+
+    <!-- The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+         Remove the comment if you do not require these default permissions. -->
+    <!-- %%INSERT_PERMISSIONS -->
+
+    <!-- The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+         Remove the comment if you do not require these default features. -->
+    <!-- %%INSERT_FEATURES -->
+
+</manifest>

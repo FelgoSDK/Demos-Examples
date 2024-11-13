@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>A blog post</title>
+            <pubDate>Sat, 07 Sep 2010 10:00:01 GMT</pubDate>
+        </item>
+        <item>
+            <title>Another blog post</title>
+            <pubDate>Sat, 07 Sep 2010 15:35:01 GMT</pubDate>
+        </item>
+        <item>
+            <title>The last blog post</title>
+            <pubDate>Sat, 07 Sep 2010 18:35:01 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
