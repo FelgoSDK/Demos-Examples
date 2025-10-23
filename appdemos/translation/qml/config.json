@@ -1,0 +1,10 @@
+{
+  "title": "TranslationTest",
+  "identifier": "com.felgo.demos.TranslationExample",
+  "orientation": "landscape",
+  "versioncode": 1,
+  "versionname": "1.0",
+  "stage": "publish",
+  
+  "plugins": [ "gui" ]
+}
