@@ -101,7 +101,7 @@ AppModal {
           width: parent.width
           leftPadding: dp(Theme.contentPadding)
           topPadding: dp(Theme.contentPadding)
-          text: application.bleDevice.name !== "" ? application.bleDevice.name : qsTr("Unkown device")
+          text: application.bleDevice.name !== "" ? application.bleDevice.name : qsTr("Unknown device")
         }
 
         actions: Row {

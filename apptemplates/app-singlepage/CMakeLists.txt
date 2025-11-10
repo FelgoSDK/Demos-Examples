@@ -26,7 +26,7 @@ file(GLOB_RECURSE QmlFiles RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} qml/*.qml qml/*.
 file(GLOB_RECURSE AssetsFiles RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} assets/* qml/*)
 list(REMOVE_ITEM AssetsFiles ${QmlFiles})
 
-# Executable should have same name as prject
+# Executable should have same name as project
 qt_add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     ${QmlFiles}

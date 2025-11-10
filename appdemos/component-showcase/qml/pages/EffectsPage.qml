@@ -40,7 +40,7 @@ AppPage {
     AppFlickable {
       id: pageFlickable
 
-      // show/hide embedded video during scrolling to opimize scroll performance
+      // show/hide embedded video during scrolling to optimize scroll performance
       property real yBeginning: 0
       property real yDelta: pageFlickable.contentY - pageFlickable.yBeginning
       property real videoContentY: 0

@@ -27,7 +27,7 @@ App {
 
         // Button to add an item
         AppButton {
-          // Counter to use and increas in case if we add new item
+          // Counter to use and increase in case if we add new item
           property int currentItemNumber: 3
 
           text: "Add Item " + (currentItemNumber + 1)

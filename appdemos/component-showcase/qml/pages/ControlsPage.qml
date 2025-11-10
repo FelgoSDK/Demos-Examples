@@ -229,7 +229,7 @@ AppPage {
               text: "Option"
               iconType: IconType.gear
               height: row.height
-              hideOptionsOnClick: false //currrently not working, manually hide on click
+              hideOptionsOnClick: false //currently not working, manually hide on click
               onClicked: {
                 row.text = "Option clicked"
                 container.hideOptions() //hide when button clicked

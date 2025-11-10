@@ -12,7 +12,7 @@ ListModel {
   }
   ListElement {
     pageUrl: "pages/MapAppearancePresenterPage.qml"
-    pageName: qsTr("Map apperance customization")
+    pageName: qsTr("Map appearance customization")
   }
   ListElement {
     pageUrl: "pages/UserPositionMapPage.qml"

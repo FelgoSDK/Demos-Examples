@@ -16,7 +16,7 @@ ListPage {
   useSafeArea: false // fill whole screen
 
   titleItem: Column {
-    // Fade title item in depdending on scroll state
+    // Fade title item in depending on scroll state
     opacity: 1 - profileImage.opacity
 
     AppText {

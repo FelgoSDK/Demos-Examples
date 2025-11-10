@@ -51,7 +51,7 @@ ListPage {
   }
 
   // The delegate is responsible for drawing a single item in the scrollable
-  // list box. Additionall, it contains the swipe-able delete button that is revealed when
+  // list box. Additionally, it contains the swipe-able delete button that is revealed when
   // the user swipes an item to the left
   delegate: SwipeOptionsContainer {
     id: container

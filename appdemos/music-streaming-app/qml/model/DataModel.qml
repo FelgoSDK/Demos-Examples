@@ -70,7 +70,7 @@ JsonListModel {
       "type": "Song",
       "name": "Camping with the bears",
       "album": "LIQUID",
-      "tags": ["Eletric", "Gaming"],
+      "tags": ["Electric", "Gaming"],
       "image": "../../assets/covers/raft.jpg",
       "pathToTrack": "../../assets/freesound-org--rock-music-publicdomain.mp3",
       "color": "#429a9e",
@@ -90,7 +90,7 @@ JsonListModel {
       "type": "Song",
       "name": "Woke at the lake",
       "album": "LIQUID",
-      "tags": ["Eletric", "Gaming"],
+      "tags": ["Electric", "Gaming"],
       "image": "../../assets/covers/raft.jpg",
       "pathToTrack": "../../assets/freesound-org--rock-music-publicdomain.mp3",
       "color": "#429a9e",
@@ -190,7 +190,7 @@ JsonListModel {
     return null
   }
 
-  // hasReference is used to indicate if term can be found amoung values in JS object (entry)
+  // hasReference is used to indicate if term can be found among values in JS object (entry)
   function hasReference(entry, term) {
 
     if (!entry || entry === undefined) {

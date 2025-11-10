@@ -83,7 +83,7 @@ App {
 
         AppText {
           font.bold: true
-          text: "Substract:"
+          text: "Subtract:"
         }
 
         Row {

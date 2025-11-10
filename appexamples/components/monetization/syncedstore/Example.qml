@@ -75,7 +75,7 @@ App {
         width: parent.width
         height: dp(50)
 
-        // Just one line for handling visiblity of the ad banner, you can use property binding for this!
+        // Just one line for handling visibility of the ad banner, you can use property binding for this!
         visible: !noadsGood.purchased
 
         SequentialAnimation on color {

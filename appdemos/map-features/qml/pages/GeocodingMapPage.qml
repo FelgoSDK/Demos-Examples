@@ -27,7 +27,7 @@ AppPage {
       delegate: markerDelegate
     }
 
-    // Component used as delagate
+    // Component used as delegate
     Component {
       id: markerDelegate
       QL.MapQuickItem {

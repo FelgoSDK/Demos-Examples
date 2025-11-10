@@ -18,7 +18,7 @@ App {
       { text: "Bluetooth", iconType: IconType.arrows, group: "Connection" },
       { text: "Mobile Data", iconType: IconType.signal, group: "Connection" },
       { text: "Carrier", iconType: IconType.phone, group: "Connection" },
-      { text: "Notications", iconType: IconType.bello, group: "Privacy" },
+      { text: "Notifications", iconType: IconType.bello, group: "Privacy" },
       { text: "Control Centre", iconType: IconType.cogs, group: "Privacy" },
       { text: "Do Not Disturb", iconType: IconType.moono, group: "Privacy" },
       { text: "General", iconType: IconType.cog, group: "System" },

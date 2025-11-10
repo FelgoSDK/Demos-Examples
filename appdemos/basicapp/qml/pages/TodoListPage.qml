@@ -44,7 +44,7 @@ AppPage {
     fields: ["id", "title", "completed"]
   }
 
-  // show sorted/filterd todos of data model
+  // show sorted/filtered todos of data model
   AppListView {
     id: listView
     anchors.fill: parent
