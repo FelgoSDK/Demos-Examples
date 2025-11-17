@@ -1,0 +1,8 @@
+{
+    "title": "Shopping List",
+    "identifier": "com.vplay.ShoppingList",
+    "orientation": "auto",
+    "versioncode": 1,
+    "versionname": "1.0.0",
+    "stage": "test"
+}
