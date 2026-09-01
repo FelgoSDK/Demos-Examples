@@ -1,0 +1,1414 @@
+{
+    "days": [
+        {
+            "day": "Day 1 - Nov 28th",
+            "day_end_time": 1701205200000,
+            "day_start_time": 1701156600000,
+            "day_title": "Keynote Day",
+            "tracks": [
+                {
+                    "events": [
+                        {
+                            "end_time": 1701159900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Registration & Breakfast",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701156600000
+                        },
+                        {
+                            "end_time": 1701161100000,
+                            "event_color": "lemon",
+                            "event_description": "<span>Welcome to Qt World Summit from our CEO!</span>",
+                            "event_title": "Welcome",
+                            "speakers": [
+                                {
+                                    "occupation": "CEO, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Untitled design (25)",
+                                        "height": 500,
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(25).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Juha Varelius,"
+                                }
+                            ],
+                            "start_time": 1701160200000
+                        },
+                        {
+                            "end_time": 1701163800000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract:</strong> The evolution of the Qt Ecosystem, Open Software, Open Tools, and Open Frameworks. We will discuss the impact of trends such as Artificial Intelligence, and Cyber Security on the Qt development and quality assurance capabilities in the future.</p>\n<p><strong>About the Speakers:&nbsp;</strong><br>Tuukka Turunen is the SVP, Research and Development at Qt Group Plc since 2016.</p>\n<p>Volker Hilsheimer has been working with Qt since the late 1990s, and is today the Chief Maintainer of the Qt project.</p>\n<p>Aleksina Shemeikka joined Qt in 2022 and she leads operational development for the company. Prior to Qt, Aleksina led agile software development teams in financial services and e-commerce.<span></span></p>",
+                            "event_title": "Trends in Product Creation - Open Software, Tools, and Frameworks",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Vice President, R&D",
+                                    "speaker_image": {
+                                        "alt": "Tuukka Turunen",
+                                        "height": 834,
+                                        "max_height": 834,
+                                        "max_width": 867,
+                                        "src": "https://www.qt.io/hubfs/Tuukka-Turunen-bw.jpg",
+                                        "width": 867
+                                    },
+                                    "speaker_name": "Tuukka Turunen,"
+                                },
+                                {
+                                    "occupation": "Director R&D, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Volker Hilsheimer",
+                                        "height": 277,
+                                        "loading": "lazy",
+                                        "max_height": 277,
+                                        "max_width": 296,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Volker-Hilsheimer.jpg",
+                                        "width": 296
+                                    },
+                                    "speaker_name": "Volker Hilsheimer,"
+                                },
+                                {
+                                    "occupation": "Director, Operational Development, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Aleksina Shemeikka",
+                                        "height": 1080,
+                                        "loading": "lazy",
+                                        "max_height": 1080,
+                                        "max_width": 1080,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Aleksina%20QtWS23-min.png",
+                                        "width": 1080
+                                    },
+                                    "speaker_name": "Aleksina Shemeikka,"
+                                }
+                            ],
+                            "start_time": 1701161100000
+                        },
+                        {
+                            "end_time": 1701166200000,
+                            "event_color": "lemon",
+                            "event_description": "<p><span style=\"color: #000000;\"><strong>Abstract: </strong>It's something we all ask ourselves: Am I a Good Programmer? But how can we truly know if we're good at software development or not? Evaluating programming skills is notoriously difficult. I'll walk you through some thoughts that might help.</span></p>\n<p><span style=\"color: #000000;\"><strong>Speaker: </strong>Kate Gregory is an enthusiastic C++ programmer and teacher, and has been paid to program since 1979. She believes that software should make our lives easier. That includes making the lives of developers easier! She'll stay up late arguing about deterministic destruction or how modern C++ is not the C++ you remember. She is one of the three leads of the Carbon Language project, a founder of #include &lt;C++&gt;, and on the board of C++ Toronto, which runs CppNorth.</span></p>\n<p><span style=\"color: #000000;\">Kate runs a small consulting firm in rural Ontario and provides mentoring and management consultant services, as well as writing code every week. She has spoken all over the world, written over a dozen books, and helped thousands of developers to be better at what they do. Kate is a Visual C++ MVP, and develops courses for Pluralsight, primarily on C++.</span></p>",
+                            "event_title": "Am I a Good Programmer?",
+                            "speakers": [
+                                {
+                                    "occupation": "C ++ Programmer",
+                                    "speaker_image": {
+                                        "alt": "Kate Gregory B&W",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(5).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Kate Gregory"
+                                }
+                            ],
+                            "start_time": 1701163800000
+                        },
+                        {
+                            "end_time": 1701168000000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "BREAK",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701166200000
+                        },
+                        {
+                            "end_time": 1701168900000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Qt Interface Framework Lifts Tons of Work<br><br>Abstract:&nbsp;</strong>We were talking about containers way before Docker existed, we have modularity and reusability in our DNA. When developing a complex application like a user interface, we believe in decoupling graphics, logic, and communication. Many times communication layer does not depend at all on your team and maybe unknown for a long time during a project. Interface framework handles this and more, allowing to define an abstract data interface to use in the GUI and effortlessly create one or more real protocol backends later. In this presentation we want to share with you the architecture we have set up for our Cabin panel system, leveraging on Qt Interface framework for the data layer.</p>\n<div>&nbsp;</div>\n<p><strong>About the Speaker: </strong>Master's degree in Computer engineering in 2008. Living in Genoa, in the northern part of Italy. Joined Fantuzzi group research center in Genoa in 2008 as Graphical Interface developer, the company got later acquired by Terex and then by Konecranes. I've so managed to work for three companies without changing my desk. During these years I have worked in the development of a RAD tool for graphical user interface creation as well as participating in many graphical interfaces projects for off-highway, road, and maritime vehicles. Since 2020 leading Konecranes GUI tech HUB in Genoa Engineering Center.</p>",
+                            "event_title": "Customer case: Konecranes",
+                            "speakers": [
+                                {
+                                    "occupation": "Manager GUI Products, Konecranes",
+                                    "speaker_image": {
+                                        "alt": "Eugenio Torrini",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(9).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Eugenio Torrini,"
+                                }
+                            ],
+                            "start_time": 1701168000000
+                        },
+                        {
+                            "end_time": 1701170100000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract:</strong> At LUMA Vision we are building a future in which Cardiologists and Electrophysiologists have a complete &amp; evidence-based understanding of their patient’s well-being. We enable real-time personalized patient therapy through advanced 4D digital imaging and navigation. As an end-to-end system for intracardiac procedures, our products integrate interventional imaging with a fully software-defined platform to enable dedicated workflows addressing clinical needs in interventional imaging. With the help of KDAB, we are building this based on Qt, leveraging the latest in high-performance graphics hardware and software. This presentation will discuss challenges and learnings from pushing the technological envelope in a tightly regulated environment.</p>\n<p><strong>About the Speakers:</strong> <span>Till Adam has been working with Qt as a developer, consultant, and trainer for 20 years. He is the Chief Commercial Officer of the KDAB Group, the world's leading Qt services company.</span></p>\n<p><span>Christoph Hennersperger is passionate about medical device development, medical image computing, information technology, and improving healthcare. In 2017 he co-founded LumaVision (formerly OneProjects), which operates at the intersection of hardware, software, and data science to create the future vision for healthcare and how to successfully treat patients in a new era for data driven solutions.</span></p>",
+                            "event_title": "Luma Vision - The Future of Interventional Cardiac Imaging, Built with Qt",
+                            "speakers": [
+                                {
+                                    "occupation": "CCO, KDAB",
+                                    "speaker_image": {
+                                        "alt": "TillAdam",
+                                        "height": 549,
+                                        "loading": "lazy",
+                                        "max_height": 549,
+                                        "max_width": 547,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/SharedScreenshot-3.jpg",
+                                        "width": 547
+                                    },
+                                    "speaker_name": "Till Adam,"
+                                },
+                                {
+                                    "occupation": "Co-Founder and CTO, LumaVision",
+                                    "speaker_image": {
+                                        "alt": "Untitled design (15)",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(15).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Christoph Hennersperger,"
+                                }
+                            ],
+                            "start_time": 1701168900000
+                        },
+                        {
+                            "end_time": 1701171300000,
+                            "event_color": "lemon",
+                            "event_description": "<p><span><strong>Abstract:</strong> In the rapidly evolving world of embedded development, effective DevOps practices are more crucial than ever. This presentation will talk about the optimization of DevOps pipelines to achieve not only greater efficiency but also a better developer experience. I will explore practical and innovative ways to streamline workflows, reducing cognitive load and enabling developers to focus more on their core tasks. Furthermore, we will address the integration of security within these pipelines. By incorporating security measures within the DevOps process, we can ensure that our development is not only faster and more efficient but also compliant and more reliable. This talk provides insights for any organization looking to elevate its embedded device development through a more effective DevOps pipeline.</span></p>\n<p><span><strong>About the Speaker:</strong> Marko Klemetti is the CTO of Eficode. During his journey, Eficode has helped more than a thousand organizations make a transformation with the means of Agile and DevOps. Marko still spends a significant amount of his time advising organizations on their path to becoming modern and software-driven. Marko is still a passionate programmer, working mostly on emerging technologies that have the potential to become mainstream in the future. That helps him gain a very in-depth understanding of the trends and new possibilities. As part of his work at Eficode, Marko is also a founder and advisor in many tech startups.</span></p>",
+                            "event_title": "Enhancing Embedded Device Development: Streamlining the DevOps Pipeline",
+                            "speakers": [
+                                {
+                                    "occupation": "CTO, Eficode",
+                                    "speaker_image": {
+                                        "alt": "Marko",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(16).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Marko Klemetti,"
+                                }
+                            ],
+                            "start_time": 1701170100000
+                        },
+                        {
+                            "end_time": 1701175200000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "LUNCH",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701171300000
+                        },
+                        {
+                            "end_time": 1701177900000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract:&nbsp;</strong>How does the roadmap of Qt Development looks like? What to expect in upcoming months? Qt Chief Maintainer Volker Hilsheimer and Product Director Maurice Kalinowski are here to share the news.</p>\n<p><strong>About the Speakers:</strong> <span>Volker Hilsheimer has been working with Qt since the late 1990s, and is today the Chief Maintainer of the Qt project. Maurice Kalinowski works as Product Director for Qt Group, heading the Technical Product Management. He has a long history in the development of Qt, maintaining various embedded Windows variants, IoT protocols, and developer offering in general.</span></p>",
+                            "event_title": "Qt Roadmap",
+                            "speakers": [
+                                {
+                                    "occupation": "Director R&D, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Volker Hilsheimer",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(18).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Volker Hilsheimer"
+                                },
+                                {
+                                    "occupation": "Director of Product Management, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Maurice B&W",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(8).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Maurice Kalinowski,"
+                                }
+                            ],
+                            "start_time": 1701175200000
+                        },
+                        {
+                            "end_time": 1701179700000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract: </strong>It has been said that humans are allergic to change. It has also been said that change is the only constant. While some may rush towards change, others seek out islands of stability. Even though technology has a reputation for being about and bringing about change, in our habits, our codebases, and our technical choices we often avoid change. \"No need to upgrade to a more recent version of the library.\" \"C++20? We're still thinking about migrating to C++11...\" \"If it ain't broke, don't fix it!\" In this talk, we'll look at the long-term implications of avoiding change in our code and technologies, from skills to security, from legacy to refactoring. Sometimes change for its own sake is a good thing. We need to develop a better relationship with change... a closer and more intimate relationship... we need to embrace it.</p>\n<p><strong>About the Speaker: </strong>Kevlin Henney is an independent consultant, speaker, writer, and trainer. His software interests lie in programming, practice, and people. He has been a columnist for a number of magazines and sites, has contributed to both open- and closed-source software (sometimes unintentionally), and has been on far too many committees (it has been said that \"a committee is a cul-de-sac down which ideas are lured and then quietly strangled\"). He has co-authored two volumes in the Pattern-Oriented Software Architecture series and edited and contributed to multiple books in the 97 Things series.</p>",
+                            "event_title": "Change? I Was Afraid of That.",
+                            "speakers": [
+                                {
+                                    "speaker_image": {
+                                        "alt": "Untitled design (21)",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(21).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Kevlin Henney"
+                                }
+                            ],
+                            "start_time": 1701177900000
+                        },
+                        {
+                            "end_time": 1701180600000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract</strong><br>In today’s tech landscape, the notion of progression often pivots towards management roles. Yet, for engineers, the Individual Contributor (IC) career path emerges as an influential alternative. Drawing from Jonathan's journey as a C++/Qt developer and his involvement in pioneering projects such as Sky Q and Sky Glass, Jonathan aims to guide you on how to ascend to leadership positions within the technical realm.<br><br><strong>About the Speaker</strong><br>Jonathan Courtois is a Distinguished Engineer at Sky (UK), leading the development in C++/Qt of the immersive UI experience of Entertainment OS, the operating system powering Sky Glass and Sky Stream.<br>With Qt roots tracing back to 2007, Jonathan was the Qt community leader on Developpez.com (from 2010 to 2012) and led the writing of the book “Créer des applications avec Qt 5”, the first Qt 5 book in French released in November 2013.<br>Deeply passionate about software excellence, Jonathan advocates for the seamless integration of CI/CD and industry best practices. He fervently believes in the cross-collaboration of Product, UI/UX, and Developer teams within agile frameworks. His mission? Ensuring that teams consistently deliver top-tier software to customers in a swift and iterative manner.</p>\n<p>&nbsp;</p>",
+                            "event_title": "From Code to Influence: The Road to Staff Engineer at Sky",
+                            "speakers": [
+                                {
+                                    "occupation": "Distinguished Engineer, Sky",
+                                    "speaker_image": {
+                                        "alt": "Jonathan_Courtois",
+                                        "height": 2548,
+                                        "loading": "lazy",
+                                        "max_height": 1945.0381679389313,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Jonathan_Courtois.jpg",
+                                        "width": 2620
+                                    },
+                                    "speaker_name": "Jonathan Courtois"
+                                }
+                            ],
+                            "start_time": 1701179700000
+                        },
+                        {
+                            "end_time": 1701182400000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "BREAK",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701180600000
+                        },
+                        {
+                            "end_time": 1701183300000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract: </strong><span>Mercedes Benz is using Qt to build its world-class MBUX, allowing pixels to be pushed at tremendous speed. How exactly are we doing it? With QtWayland, of course. Let's explore what it means to build a platform on top of Qt and Wayland, together.</span></p>\n<p><span><strong>About the Speaker:</strong> Victoria Fischer is a free software hacker with decades of experience in countless fields besides software, now working at Mercedes Benz. Her team, the HMI Enablers, are delivering an entire UX platform on top of Qt and Wayland at tremendous speed. She brings a wealth of organizing and community-building experience from working in California housing law, on top of unfathomably deep technical expertise from maintaining large chunks of KDE's multimedia components, like Phonon-GStreamer. She lives in Berlin with her partner and two fuzzy cat-children and can often be found playing way too much Minecraft on Twitch when she isn't writing chiptune music with her Ukulele and Game Boy, or hosting a morning radio show from her studio.</span></p>",
+                            "event_title": "Customer Case: Mercedes-Benz",
+                            "speakers": [
+                                {
+                                    "occupation": "Interim Engineering Lead, Mercedes-Benz",
+                                    "speaker_image": {
+                                        "alt": "Victoria Fischer",
+                                        "height": 2736,
+                                        "loading": "lazy",
+                                        "max_height": 2000,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Victoria-Fischer.jpg",
+                                        "width": 2736
+                                    },
+                                    "speaker_name": "Victoria Fischer,"
+                                }
+                            ],
+                            "start_time": 1701182400000
+                        },
+                        {
+                            "end_time": 1701184200000,
+                            "event_color": "blue",
+                            "event_description": "<p><span>Qt Academy was launched in the Spring of 2023 and immediately rose to popularity among students. Here we will reward the best projects from our first sponsored learning track and introduce our next sponsor.</span></p>",
+                            "event_title": "Qt Academy & Awards",
+                            "speakers": [
+                                {
+                                    "occupation": "Product Business Line Director, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Tapio_Haantie",
+                                        "height": 2664,
+                                        "loading": "lazy",
+                                        "max_height": 1947.3684210526317,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Tapio_Haantie.jpg",
+                                        "width": 2736
+                                    },
+                                    "speaker_name": "Tapio Haantie,"
+                                }
+                            ],
+                            "start_time": 1701183300000
+                        },
+                        {
+                            "end_time": 1701187200000,
+                            "event_color": "lemon",
+                            "event_description": "<p><span><strong>Panel Discussion:</strong> Kate Gregory, Kevlin Henney, and Volker Hilsheimer</span></p>",
+                            "event_title": "Panel Discussion: Is Software Making the Lives of Developers Easier?",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701185400000
+                        },
+                        {
+                            "end_time": 1701185400000,
+                            "event_color": "lemon",
+                            "event_description": "<p><strong>Abstract</strong><br>Using virtual environments in flight and driving simulators is an established way to derive design and test relevant use cases and correspondingly expected system behavior during application development. However, generally, corresponding simulations reflect the targeted ideal behavior of systems while SW bugs can of cause lead to deviating results. Our approach intends to combine HW and SW development environments of various abstraction levels down to real HW behavior interacting with original operating system SW and application SW. As the output of such simulations is usually complex and illustrated through signal traces, task graphs, core load charts etc., we instead apply such outputs into a dedicated feedback loop within UX environments enabling to experience the very complex interaction effect of injected HW faults, security threats etc. within real driving scenarios.<br><br><strong>About the Speaker</strong><br>Andreas (IEEE SM, CRP) drove the semiconductor strategy activities at Volkswagen for years, focusing on technology capability enhancements of most advanced node-based chip products incl. improved integration schemes as well as optimization of power electronics module qualification. He has 24 years of experience with/within the semiconductor industry, authored &gt; 40 publications on reliability, has given tutorials at IEEE IRPS, IIRW as well as keynote speeches in various conferences. Andreas is chair of the German VDE ITG MN 5.6 WG on (f)WLR, reliability simulations and qualification, chair of the European chapter of the SEMI Automotive Advisory Council and serves the Federal Ministry of Education and Research (Bmbf) industry advisory board on cyber security.</p>",
+                            "event_title": "Integration of UX Into HW/SW Co-Design Analysis Infrastructures",
+                            "speakers": [
+                                {
+                                    "occupation": "Project Manager MaaS HW/SW Development, Volkswagen Commercial Vehicles",
+                                    "speaker_image": {
+                                        "alt": "Andreas-Aal",
+                                        "height": 1873,
+                                        "loading": "lazy",
+                                        "max_height": 1873,
+                                        "max_width": 1931,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Andreas-Aal.jpg",
+                                        "width": 1931
+                                    },
+                                    "speaker_name": "Andreas Aal,"
+                                }
+                            ],
+                            "start_time": 1701184200000
+                        },
+                        {
+                            "end_time": 1701203400000,
+                            "event_color": "moss",
+                            "event_description": "<p>Join us for afterwork drinks, food and mingle with music, games, coding in the dark, and other entertainment.</p>\n<p>Don't forget to come and hear how Algoriddim has been able to develop their award-winning DJ App with Qt. Algoriddim ambassador DJ Angelo is also on stage!</p>",
+                            "event_title": "Afterwork & Party",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701187200000
+                        }
+                    ],
+                    "track": "Day 1"
+                }
+            ]
+        },
+        {
+            "day": "Day 2 - Nov 29th",
+            "day_end_time": 1701270000000,
+            "day_start_time": 1701243000000,
+            "day_title": "Breakout Sessions",
+            "tracks": [
+                {
+                    "events": [
+                        {
+                            "end_time": 1701244500000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Breakfast",
+                            "speakers": [],
+                            "start_time": 1701243000000
+                        },
+                        {
+                            "end_time": 1701246600000,
+                            "event_color": "neon",
+                            "event_description": "<p><span><strong>Abstract: </strong>Unlike desktop application environments that provide (more or less) stable APIs on how to render your user interfaces to the screen, getting even a simple UI to show on a new microcontroller or a new real-time OS can be a challenge. Join us for a presentation where we will, in real-time, make Qt run on Zephyr RTOS. We will start with creating a new Qt kit, write basic memory allocation and timekeeping, and finally display rendering functions. After the end of the presentation, you will have a basic knowledge of how to make your MCU environment run Qt</span></p>\n<p><span><strong>About the Speaker:</strong> Bruno is a Solution Engineer working at Qt where he's currently helping clients to start new projects and have a smooth experience using Qt products. From his student days in Croatia, Bruno was very interested in and involved in building automotive user interfaces, embedded devices, and microcontrollers. Before joining Qt, he used the Qt framework to create instrument cluster user interfaces for the automotive industry. You might have already driven a car with his software.</span></p>",
+                            "event_title": "Getting Qt to run on new MCU environments",
+                            "speakers": [
+                                {
+                                    "occupation": "Solutions Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Bruno_Vunder",
+                                        "height": 1013,
+                                        "loading": "lazy",
+                                        "max_height": 1013,
+                                        "max_width": 1013,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Bruno_Vunder.jpg",
+                                        "width": 1013
+                                    },
+                                    "speaker_name": "Bruno Vunderl, "
+                                }
+                            ],
+                            "start_time": 1701244800000
+                        },
+                        {
+                            "end_time": 1701248700000,
+                            "event_color": "neon",
+                            "event_description": "<p><strong>Abstract:</strong> <span>The KDE community has been developing free software using Qt for over 25 years. Naturally, the transition to Qt6 has had a huge impact on our work. In this talk we are going to look at how KDE approached the Qt6 port, what we learned while doing it, what others can learn from our experience, and what the future for KDE and Qt holds.</span></p>\n<p><strong>About the Speaker:</strong> <span>Nicolas is a Software Platform Engineer at KDE e.V., the nonprofit organization behind the KDE Community. He has over five years of experience writing KDE software using Qt.</span></p>",
+                            "event_title": "KDE's Journey to Qt6 and Beyond",
+                            "speakers": [
+                                {
+                                    "occupation": "Software Platform Engineer, KDE",
+                                    "speaker_image": {
+                                        "alt": "Nicolas_Fella",
+                                        "height": 761,
+                                        "loading": "lazy",
+                                        "max_height": 761,
+                                        "max_width": 690,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Nicolas_Fella.jpg",
+                                        "width": 690
+                                    },
+                                    "speaker_name": "Nicolas Fella, "
+                                }
+                            ],
+                            "start_time": 1701246900000
+                        },
+                        {
+                            "end_time": 1701251700000,
+                            "event_color": "neon",
+                            "event_description": "<p style=\"line-height: 1.5;\"><strong>Abstract:</strong> Dive into the world of Qt development for macOS with this insightful talk, designed to empower developers with platform-specific integration techniques and practical deployment strategies.<br>Discover how to effectively work with Objective-C and native macOS APIs, as well as navigate app packaging, signing, and distribution. This presentation will offer a wealth of tips and best practices to optimize your macOS Qt development process and prepare a strategy for porting your app to macOS. Join us to enhance your understanding of the macOS platform and unlock its full potential for your Qt projects.</p>\n<p style=\"line-height: 1.5;\"><strong>About the Speaker: </strong>After falling in love with the Qt framework, Lukas spent a few years developing his skills and working as a freelancer or contractor developer. He has experience working on cross-platform Qt projects for various industries such as health care, automotive, consumer electronics, and defense.<br><br>Lukas describes himself as a specialist in QML development with strong expertise in C++. Despite being specialized in QML, he values features coming with Qt Widgets in the context of desktop UI development.<br><br>Because of his passion for Qt development, he decided to found Scythe Studio – Qt software services company.</p>",
+                            "event_title": "Qt Development for macOS: Tips and tricks",
+                            "speakers": [
+                                {
+                                    "occupation": "CEO, Scythe Studio",
+                                    "speaker_image": {
+                                        "alt": "Lukas Kosinski",
+                                        "height": 1939,
+                                        "loading": "lazy",
+                                        "max_height": 1939,
+                                        "max_width": 1939,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Lukas_Kosinski.jpg",
+                                        "width": 1939
+                                    },
+                                    "speaker_name": "Lukas Kosiński,"
+                                }
+                            ],
+                            "start_time": 1701249000000
+                        },
+                        {
+                            "end_time": 1701252900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "BREAK",
+                            "speakers": [],
+                            "start_time": 1701251700000
+                        },
+                        {
+                            "end_time": 1701255600000,
+                            "event_color": "neon",
+                            "event_description": "<p><strong>Abstract:</strong> <span>Over the last 3 years, we have been working on porting our large legacy CAD software (Alias) to using Qt/QML for UI. We had been using an in-house developed UI framework for the last 30+ years and it was time to upgrade to something more modern to empower our designers and take pressure off of our developers to make them more productive with easier and more intuitive tools. Because of the state of our application, we have taken an all-in approach where we disabled the UI for our CAD software and began building everything bit by bit. During this project, we not only refactored and changed the technology we use for our UI but also the way we work within our team across disciplines.</span></p>\n<p><strong>About the Speaker: </strong><span>Furkan Uzumcu is a senior software engineer at Autodesk. He has worked with many languages and backend, and end frontend systems to solve problems. He's passionate about good UX, software architecture, and design. He's worked with Qt/QML for over 8 years, and developed software for desktop and mobile devices. He's been working at Autodesk for the past 4 years, on the architecture and the user interface of a large 3D CAD software. When he's not working, he enjoys reading, rock climbing, running, and building mechanical keyboards.</span></p>",
+                            "event_title": "Porting a Large Scale Non-Qt Legacy CAD Application to Qt/QML: The Good, The Bad, and The Ugly",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Software Engineer, Autodesk",
+                                    "speaker_image": {
+                                        "alt": "Furkan-Autodesk",
+                                        "height": 1212,
+                                        "loading": "lazy",
+                                        "max_height": 1212,
+                                        "max_width": 1308,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Furkan-Autodesk.jpg",
+                                        "width": 1308
+                                    },
+                                    "speaker_name": "Furkan Uzumcu,"
+                                }
+                            ],
+                            "start_time": 1701252900000
+                        },
+                        {
+                            "end_time": 1701258300000,
+                            "event_color": "neon",
+                            "event_description": "<p><strong>Abstract:&nbsp;</strong>QML is a versatile and powerful component of all Qt applications, beyond the already established use case of building advanced UIs. It can be easily used for in-application scripting [1], leveraging the C++/QML integration in Qt. This has been used internally in our migration helper tool, but beyond just script automation one of the features we wanted was a way for the user to record a script based on the actions he was doing, so he can save it and replay it later. The underlying idea is close to what the text editing macros in Qt Creator can do, with the difference that the output is a script that can be easily edited or amended after recording. In this session, I will show how such a system can be added to an existing application in the least intrusive way possible, how to make it generic enough for handling almost any kind of API, what are the prerequisites for such a system, and how to handle some corner cases.</p>\n<p><strong>About the Speaker: </strong><span>Nicolas Arnaud-Cormos has been working with Qt for more than half of his life already, on multiple Qt widgets or QML projects, with a particular emphasis on API design and software architecture. He is a senior software engineer and trainer at KDAB since 2007, and a runner enthusiast in his free time.</span></p>",
+                            "event_title": "Script Automation: Recording User Actions",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Software Engineer, KDAB",
+                                    "speaker_image": {
+                                        "alt": "Nicolas Arnaud-Cormos",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(6).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Nicolas Arnaud-Cormos,"
+                                }
+                            ],
+                            "start_time": 1701255900000
+                        },
+                        {
+                            "end_time": 1701261900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "LUNCH",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701258300000
+                        },
+                        {
+                            "end_time": 1701264600000,
+                            "event_color": "neon",
+                            "event_description": "<p><strong>Abstract:</strong> <span>The first six minor releases in the Qt 6 series (6.0 - 6.5) prove that the 3D graphics API and shading language abstraction layers introduced with Qt 6.0 provide a solid, well-performing, cross-platform foundation for Qt Quick, Qt Quick 3D, and in some cases, Widgets even. The story is not complete yet, however. The QRhi API itself is still private today, and using these facilities in Qt applications involves digging deep into Qt internals. In this talk we are going to take a look at how this is expected to change in the subsequent few Qt 6 releases (6.6, 6.7, 6.8): Is the QRhi API going to be opened up for application use as well? Will there be a QRhiWidget and a QRhiItem? How about adding augmenting a Qt Quick 3D with custom draw calls or compute shaders? And more.</span></p>\n<p><strong>About the Speaker: </strong>Laszlo is a principal software engineer at The Qt Company in Norway. He is usually working on various parts of the cross-platform Qt graphics stack, focusing mainly on accelerated 2D/3D graphics for Qt Quick and Qt Quick 3D.</p>",
+                            "event_title": "Advances in Lower Level 2D/3D Graphics Enablers in Qt 6.6 and Beyond",
+                            "speakers": [
+                                {
+                                    "occupation": "Principal Software Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "LaszloAgocs",
+                                        "height": 443,
+                                        "loading": "lazy",
+                                        "max_height": 443,
+                                        "max_width": 400,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/LaszloAgocs.jpg",
+                                        "width": 400
+                                    },
+                                    "speaker_name": "Laszlo Agocs,"
+                                }
+                            ],
+                            "start_time": 1701261900000
+                        },
+                        {
+                            "end_time": 1701266700000,
+                            "event_color": "neon",
+                            "event_description": "<p><strong>Abstract:</strong> <span>We are introducing a new Qt module to draw 3D graphs. It is a new generation of an existing module called Qt DataVisualization. In this talk, I would like to share why Qt provides a new 3D graph module, what makes it different from the old one, and the new module's goals.</span></p>\n<p><strong>About the Speaker: </strong><span>Kwanghyo Park has 10 years of experience in Software engineering with various development backgrounds. Currently mainly focusing on Qt 3D graphics development.</span></p>",
+                            "event_title": "Qt Graphs: A New 3D Graph Rendering Module",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Software Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Kwanghyo_Park",
+                                        "height": 1717,
+                                        "loading": "lazy",
+                                        "max_height": 1717,
+                                        "max_width": 1595,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Kwanghyo_Park.jpg",
+                                        "width": 1595
+                                    },
+                                    "speaker_name": "Kwanghyo Park,"
+                                }
+                            ],
+                            "start_time": 1701264900000
+                        },
+                        {
+                            "end_time": 1701268800000,
+                            "event_color": "neon",
+                            "event_description": "<p><strong>Abstract:</strong> <span>This will be a \"Getting Started\" dive into using Qt Insight for a developer. If applicable, we will have a customer co-host and explain about advantages of Insight to other technologies, but this part is optional.</span></p>\n<p><strong>About the Speaker:</strong> <span><span dir=\"ltr\">Tino Pyssysalo is working as a technical product manager at Qt Group. His responsible areas include developer experience with Qt tools, such as Qt Installer and Qt Creator. He is also working as the technical product owner of Qt Insight. His Qt career started back in 2008 when he was using Qt and Qtopia in smartphone projects. Since then he has had numerous Qt-related roles in his work career.&nbsp;</span></span></p>",
+                            "event_title": "Dive Into Qt Insight",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Product Manager, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Tino Pyssysalo",
+                                        "height": 720,
+                                        "loading": "lazy",
+                                        "max_height": 720,
+                                        "max_width": 730,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Tino_Qt.jpg",
+                                        "width": 730
+                                    },
+                                    "speaker_name": "Tino Pyssysalo,"
+                                }
+                            ],
+                            "start_time": 1701267000000
+                        },
+                        {
+                            "end_time": 1701270000000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Farewell",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701268800000
+                        }
+                    ],
+                    "track": "Qt Explorer"
+                },
+                {
+                    "events": [
+                        {
+                            "end_time": 1701244500000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Breakfast",
+                            "speakers": [],
+                            "start_time": 1701243000000
+                        },
+                        {
+                            "end_time": 1701246600000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract:</strong> <span>QML, Qt Quick, and Qt Quick Controls have all been evolving over the lifetime of Qt 6. While developing both QML APIs for Qt Quick 3D and creating Qt Quick Controls based tooling to support it, I had to learn many things I think would be helpful to share. This talk offers valuable insights, tips, and tricks for overcoming challenges when creating desktop software with Qt Quick Controls.</span></p>\n<p><span><strong>About the Speaker: </strong>Andy Nichols has been a developer of Qt for the last 15 years on the graphics team of The Qt Company in Oslo, Norway. He is the maintainer of Qt Quick 3D and the Qt Quick SceneGraph/Renderer.</span></p>",
+                            "event_title": "Qt Quick: Tips and Tricks",
+                            "speakers": [
+                                {
+                                    "occupation": "Principal Software Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "AndyNichols",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/AndyNichols.jpg",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Andy Nichols,"
+                                }
+                            ],
+                            "start_time": 1701244800000
+                        },
+                        {
+                            "end_time": 1701248700000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract: </strong><span>Qt Interface Framework is a powerful tool that allows for the separation of frontend and backend implementations. On the other hand, Qt Design Studio is an excellent tool for designers to bring their designs to life. By integrating the Qt Interface Framework into the designers' workflow, you can ensure that they have access to proper backend simulation, offload developers from UI integration work and ensure both parties can work seamlessly on design and implementation, resulting in a faster and more streamlined development process.</span></p>\n<p><span><strong>About the Speaker: </strong>Marcin Pawlikowski is a skilled software developer with experience in C++ and Qt. He has worked on desktop and mobile applications, as well as HMIs for maritime and automotive use. He has a solid understanding of the entire application development life cycle, from design and prototyping to release and maintenance of the complete feature set. After work, Marcin enjoys developing games and riding a motorcycle.</span></p>",
+                            "event_title": "Integrating Qt Interface Framework with Qt Design Studio",
+                            "speakers": [
+                                {
+                                    "occupation": "Software Developer, Spyrosoft",
+                                    "speaker_image": {
+                                        "alt": "Marcin_Pawlikowski",
+                                        "height": 2724,
+                                        "loading": "lazy",
+                                        "max_height": 1801.5873015873017,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Marcin_Pawlikowski.jpg",
+                                        "width": 3024
+                                    },
+                                    "speaker_name": "Marcin Pawlikowski,"
+                                }
+                            ],
+                            "start_time": 1701246900000
+                        },
+                        {
+                            "end_time": 1701251700000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract:</strong> <span>The technique of combining different applications is often useful to achieve faster time-to-market and improved resiliency by breaking down the responsibilities of each component into specialized tasks. Applications, therefore, communicate with those different components (or provide components to others) by way of Inter-Process Communication. Qt provides a number of classes and entire modules to help developers achieve this, from simple sharing of byte data to high-level Remote Procedure Calling. This talk will describe the advantages and disadvantages of the methods and Qt classes, then it will delve deeper into the low-level IPC classes in QtCore, exploring their uses, limitations, and how to best make use of them.</span></p>\n<p><strong>About the Speaker: </strong><span>Thiago Macieira holds a double degree in Engineering and an MBA. He has been involved in Open Source projects for nearly 25 years, with Qt and KDE since 2000. He's been the maintainer for QtCore since 2012. He currently works for Intel's Data Center and AI Group, where he is a Senior Software Architect for the Cloud Engineering team. His silicon quality responsibilities include interacting with engineering in some of the largest data centers in existence and maintaining tools used by customers and by Intel.</span></p>",
+                            "event_title": "Inter-Process Communication",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Software Architect, Intel",
+                                    "speaker_image": {
+                                        "alt": "Thiago_Maciera-1",
+                                        "height": 1195,
+                                        "max_height": 1195,
+                                        "max_width": 1498,
+                                        "src": "https://www.qt.io/hubfs/Thiago_Maciera-1.jpg",
+                                        "width": 1498
+                                    },
+                                    "speaker_name": "Thiago Macieira,"
+                                }
+                            ],
+                            "start_time": 1701249000000
+                        },
+                        {
+                            "end_time": 1701252900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "BREAK",
+                            "speakers": [],
+                            "start_time": 1701251700000
+                        },
+                        {
+                            "end_time": 1701255600000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract: </strong>Dive into the integration of eXtended Reality (XR) technologies with Qt, the leading cross-platform application development framework. Attendees will gain insights into the designing, development and verifying automotive Human-Machine Interfaces (HMI) and learn how to leverage 3D Qt’s capabilities for developing cutting-edge Mixed Reality (MR) applications, featuring the Varjo XR-3 and distributed computing. This talk offers a glimpse to the latest advancements and practical techniques for creating immersive experiences using Qt. The talk will also discuss how XR can be used as a powerful tool to visualize, prototype, and iterate on HMI concepts, allowing designers to create more intuitive and user-friendly interfaces. Join us to explore the exciting future and discover how Qt can revolutionize interactive experiences in the era of eXtended Reality and distributed systems!</p>\n<p><strong>About the Speakers:</strong> <strong>Kamil Machnicki</strong> is a senior software developer with nearly a decade of expertise across diverse industries with a proven track record in automotive, medical, AI, embedded systems, telecommunication, and mixed reality projects. Proficient in creating intuitive user interfaces using the Qt framework and extensive experience in developing C++ software for embedded systems.<br><br><strong>Krzysztof Kurzeja</strong> is a real-time 3D graphics geek, who always wanted to be self-sufficient in 3D application development and has become quite good at it. He loves rapid prototyping and has gathered experience in Game Development, Architectural Visualisation, Simulations, and Animations on PC, Consoles, and VR devices. Krzysztof also teaches 3D Graphics at DSW in Wroclaw, and occasionally writes articles about Realtime Rendering for the Product Design Magazine.<br><br><strong>Łukasz Ronka</strong> is an experienced project manager, team leader, and ScrumMaster with a strong technical background in C++, Python, SQL, AWS. Łukasz is also experienced working as a software engineering trainer and coach. Recently he has been focusing on technical project coordination, team, and people management.</p>",
+                            "event_title": "Mixing Reality with Qt",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Software Developer, Siili Auto",
+                                    "speaker_image": {
+                                        "alt": "Kamil Machnicki",
+                                        "height": 1278,
+                                        "loading": "lazy",
+                                        "max_height": 1278,
+                                        "max_width": 1208,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Kamil_Machnicki-1.jpg",
+                                        "width": 1208
+                                    },
+                                    "speaker_name": "Kamil Machnicki,"
+                                },
+                                {
+                                    "occupation": "3D graphics specialist, Siili Auto",
+                                    "speaker_image": {
+                                        "alt": "Krzystof Kurzeja",
+                                        "height": 1290,
+                                        "loading": "lazy",
+                                        "max_height": 1290,
+                                        "max_width": 1280,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Krzystof_Kurzeja.jpg",
+                                        "width": 1280
+                                    },
+                                    "speaker_name": "Krzysztof Kurzeja,"
+                                },
+                                {
+                                    "occupation": "Project Manager, Siili Auto",
+                                    "speaker_image": {
+                                        "alt": "Lukasz_Ronka",
+                                        "height": 1290,
+                                        "loading": "lazy",
+                                        "max_height": 1290,
+                                        "max_width": 1280,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Lukasz_Ronka.jpg",
+                                        "width": 1280
+                                    },
+                                    "speaker_name": "Łukasz Ronka,"
+                                }
+                            ],
+                            "start_time": 1701252900000
+                        },
+                        {
+                            "end_time": 1701258300000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract: </strong><span>QML has recently gained a number of new features: Named user-provided value types and containers of value types and a number of pragmas you can use to straighten out inconsistencies. The talk will show how to use these new features to make your QML code behave in a more predictable way and to enable compilation to C++ via the Qt Quick Compiler.</span></p>\n<p><span><strong>About the Speaker:</strong> Ulf Hermann has been working with the Qt Company since 2013. He is the maintainer of the QtQml module and the QML language. Currently, he is working hard to make QML more efficient by compiling ahead of time to C++.</span></p>",
+                            "event_title": "Recent Changes to the QML Language",
+                            "speakers": [
+                                {
+                                    "occupation": "Principal Software Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "ulf-hermann",
+                                        "height": 622,
+                                        "loading": "lazy",
+                                        "max_height": 622,
+                                        "max_width": 548,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/ulf-hermann.jpg",
+                                        "width": 548
+                                    },
+                                    "speaker_name": "Ulf Hermann,"
+                                }
+                            ],
+                            "start_time": 1701255900000
+                        },
+                        {
+                            "end_time": 1701261900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "LUNCH",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701258300000
+                        },
+                        {
+                            "end_time": 1701264600000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract: </strong><span>Writing code means debugging code, and that means setting breakpoints and looking at stack traces. When using any framework, much of the stack trace involves code from that framework. In this talk, we will go through some of the Qt internals that are exposed through the stack trace, and try to understand what's going on before the execution hits our application code.</span></p>\n<p><span><strong>About the speakers: </strong>Volker Hilsheimer has been working with Qt since the late 1990s, and is today the Chief Maintainer of the Qt project.&nbsp;<br>Fabian Kosmale has been working for the Qt Company since 2019. He's the manager of the QML team, as well as the maintainer of moc. From time to time, he still manages to submit patches to KDE.<br></span></p>",
+                            "event_title": "Understanding the Qt Stack Trace",
+                            "speakers": [
+                                {
+                                    "occupation": "Director R&D, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Volker-Hilsheimer",
+                                        "height": 277,
+                                        "loading": "lazy",
+                                        "max_height": 277,
+                                        "max_width": 296,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Volker-Hilsheimer.jpg",
+                                        "width": 296
+                                    },
+                                    "speaker_name": "Volker Hilsheimer,"
+                                },
+                                {
+                                    "occupation": "Manager, R&D, Qt Group",
+                                    "speaker_image": {
+                                        "loading": "lazy",
+                                        "size_type": "auto",
+                                        "src": ""
+                                    },
+                                    "speaker_name": "Fabian Kosmale,"
+                                }
+                            ],
+                            "start_time": 1701261900000
+                        },
+                        {
+                            "end_time": 1701266700000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract: </strong>Code reloading is a technique that allows developers to update the application’s source code at runtime. By using code reloading in your Qt Quick project, you can achieve short iteration cycles and speed up development. This talk discusses how to implement code reloading in Qt-based applications for Embedded, Desktop, Mobile, and WebAssembly. We explore different techniques, their advantages, and drawbacks, as well as the best tools to use for optimal performance. The audience will gain valuable insights about Qt 6 and why it is an ideal framework for code reloading. Through practical examples and demos, attendees will discover how to create high-quality applications with fast iteration cycles. The talk offers a unique perspective on code reloading and demonstrates how to combine QML, Qt 6, and various tools to achieve a seamless development experience.<br>In conclusion, this talk provides attendees with an in-depth understanding of how to use QML and Qt 6 to enable code reloading in their applications. It offers a valuable opportunity to gain insights and practical knowledge on code reloading, which significantly improves the development experience and reduces time-to-market.</p>\n<p><strong>About the Speaker: </strong>Equipped with a business and technical background, Alex specialized in mobile app development in 2008 when the first app store launched. With his profound knowledge of mobile platforms and their UX, his apps were downloaded over a million times.<br>In 2011, Alex switched his focus to cross-platform software with Qt and QML and co-founded FELGO. Since then, FELGO has specialized in fast and high-quality software development, providing development tools and professional services. Alex has worked with customers from small companies to multinational enterprises across many industries, including automotive, medical, and industry. Alex gave various talks about cross-platform app development with Qt at different events, including Qt World Summit events and the Qt Developer Conference. He is also a co-organizer of the Qt Meetup Austria.</p>",
+                            "event_title": "QML Code Reload: Discover What’s New",
+                            "speakers": [
+                                {
+                                    "occupation": "CTO & Co-Founder of FELGO GmbH",
+                                    "speaker_image": {
+                                        "alt": "Untitled design (26)",
+                                        "height": 500,
+                                        "loading": "lazy",
+                                        "max_height": 500,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Untitled%20design%20(26).png",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Alex Leutgöb,"
+                                }
+                            ],
+                            "start_time": 1701264900000
+                        },
+                        {
+                            "end_time": 1701268800000,
+                            "event_color": "pine",
+                            "event_description": "<p><strong>Abstract:</strong> <span>Qt and Python are around the same age, but both technologies evolved independently. The moment Python bindings were available for the Qt framework, both stories started to be related. Then the question is: what's the impact of providing bindings in other languages? In this talk, you will learn about the evolution and influence between Qt, C++, and Python. Additionally, you will learn how Qt for Python is closing the gap between these two worlds and the influence on Qt by learning about the current state and future of the project. Thoughts about the interaction with other languages like Rust and Carbon will be presented as well, but no previous knowledge is required.</span></p>\n<p><span><strong>About the Speakers: </strong>Cristián is a Senior R&amp;D Manager at Qt and is currently the team lead of the Qt for Python project, on his spare time, Cristián is actively participating in many Python communities, conferences, and projects from different countries.</span></p>",
+                            "event_title": "The Role of Language Bindings in the Future of the Qt Ecosystem",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Manager, R&D, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "cristian",
+                                        "height": 3352,
+                                        "loading": "lazy",
+                                        "max_height": 1900.7655231074566,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/cristian.jpg",
+                                        "width": 3527
+                                    },
+                                    "speaker_name": "Cristián Mauraira-Fredes,"
+                                }
+                            ],
+                            "start_time": 1701267000000
+                        },
+                        {
+                            "end_time": 1701270000000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Farewell",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701268800000
+                        }
+                    ],
+                    "track": "Development Minds"
+                },
+                {
+                    "events": [
+                        {
+                            "end_time": 1701244500000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Breakfast",
+                            "speakers": [],
+                            "start_time": 1701243000000
+                        },
+                        {
+                            "end_time": 1701246600000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract: </strong><span>Safe operation of any embedded device is enabled by a rigorous architectural design. In ISO26262 mixed-ASIL systems, the architecture needs to ensure freedom from interference among the safety-related partitions and between safety-related and QM partitions. After a safety architecture has been defined and verified, static analysis can (and should) be used to demonstrate compliance between implemented source code and this architecture. This presentation highlights one way to apply an architecture check for the aspect of freedom from interference.</span></p>\n<p><span><strong>About the Speaker: </strong>Steffen Keul studied Software Engineering at the University of Stuttgart and gained experience with static analysis during his post-graduate research on static analysis of concurrent systems.&nbsp; For four years, he worked in product management and pre-development of automotive basic software with a focus on functional safety according to ISO26262. In 2017, he joined Axivion's Solution Engineering team. In this role, he strives to find the perfect static code analysis solution for every customer project.</span></p>",
+                            "event_title": "Verification of Safety Designs – Freedom from Interference",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Solution Architect, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Steffen-Keul",
+                                        "height": 2144,
+                                        "loading": "lazy",
+                                        "max_height": 2000,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Steffen-Keul.jpg",
+                                        "width": 2144
+                                    },
+                                    "speaker_name": "Steffen Keul,"
+                                }
+                            ],
+                            "start_time": 1701244800000
+                        },
+                        {
+                            "end_time": 1701248700000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract: </strong><span>GUI testing is expensive. While automation helps with reducing the cost and time required for executing tests continuously, it still requires identifying and implementing meaningful test cases. With the spirit of Shift-left Testing, we intend to execute dynamic tests on GUI applications in earlier stages of development, to capture major mistakes early and cost-efficiently. Therefore, we present ideas for autonomously testing GUI applications and discuss some of the various challenges we anticipate and how we plan to approach them.</span></p>\n<p><span><strong>About the Speaker: </strong>Max is a software developer and has a background as a security researcher. He is primarily interested in aiding developers to create good, secure, and privacy-friendly applications, even if they lack the necessary background to do so. He worked for Froglogic (now part of Qt), while he still was a student and joined the Qt Company again in 2021 after finishing his dissertation at the University of Hamburg.</span></p>",
+                            "event_title": "Towards Autonomous GUI Testing",
+                            "speakers": [
+                                {
+                                    "occupation": "Manager, R&D, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Maximilian_Blochberger",
+                                        "height": 276,
+                                        "loading": "lazy",
+                                        "max_height": 276,
+                                        "max_width": 231,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Maximilian_Blochberger.jpg",
+                                        "width": 231
+                                    },
+                                    "speaker_name": "Maximilian Blochberger,"
+                                }
+                            ],
+                            "start_time": 1701246900000
+                        },
+                        {
+                            "end_time": 1701251700000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract: </strong><span>Software development tends to gain momentum in complexity, and so do tests. How do you test complex applications? How do you find the best path to cover as much as possible with the least tests? Should I go left or right, or turn around? Are we lost? We abstract complexity with models, which we can explain. In this session, we are going to abstract complexity with models. There will be a brief introduction to Model-based testing, and then we will walk the path. We will leverage this concept and Squish to test our Qt application.</span></p>\n<p><span><strong>About the Speaker:</strong> Facing a greeting cursor at a CLI, a compiler running over thousands of files and hanging around with a debugger somewhere in the call stack - now that sounds like Thomas Piekarski. He is a Software Engineer with the Qt Company and has been developing software for the past eight years. For some time, he has been looking up at clouds, doing microservices, and accelerating e-commerce. Another time, he developed in-house solutions for the financial industry. Two years ago, he joined Qt, got into Squish, and is looking for the next issue to resolve with his colleagues.</span></p>",
+                            "event_title": "Model-Based Testing - What's That Model Good For?",
+                            "speakers": [
+                                {
+                                    "occupation": "Software Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Thomas-Pieraski-Qt",
+                                        "height": 286,
+                                        "loading": "lazy",
+                                        "max_height": 286,
+                                        "max_width": 273,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Thomas-Pieraski-Qt.jpg",
+                                        "width": 273
+                                    },
+                                    "speaker_name": "Thomas Piekarski,"
+                                }
+                            ],
+                            "start_time": 1701249000000
+                        },
+                        {
+                            "end_time": 1701252900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "BREAK",
+                            "speakers": [],
+                            "start_time": 1701251700000
+                        },
+                        {
+                            "end_time": 1701255600000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract:</strong> <span>Modern embedded systems are always connected, and information can be retrieved by a variety of applications on multiple platforms: web, mobile, and desktop. Therefore, end-to-end tests need to automate all those endpoints, platforms, and APIs at once. This can lead to a complex and heterogeneous test environment, very quickly. In this talk, there will be shown how Squish for Qt together with keyword-driven testing according to ISO29119-5 is able to reduce complexity from such a test environment by unifying the test adaption layer and reaching most of the stakeholders involved in QA besides developers.</span></p>\n<p><span><strong>About the Speakers:</strong> Björn Morgenthaler heads as tech lead of the \"Test Engineering &amp; Validation\" team at Comlet Verteilte Systeme GmbH since 2018. Before that, he owned several roles, starting as a software engineer to Scrum Master and project lead for several embedded and IoT industry-leading customers of Comlet. This brings together over 15 years of experience in software and product development. Quality was always and still is a major focus. <br>Miguel Garrido, originally from Spain with a Bachelor's degree in Software Engineering, is a Software Developer at Comlet Verteilte Systeme GmbH since 2021. He is part of the \"Test Engineering &amp; Validation” team and has taken part in the design and implementation of test automation solutions and architectures for customers since.</span></p>",
+                            "event_title": "Continuously Test Embedded Systems Keyword-Driven with Qt's Squish ",
+                            "speakers": [
+                                {
+                                    "occupation": "Head of Test Engineering and Validation, comlet Verteilte Systeme GmbH",
+                                    "speaker_image": {
+                                        "alt": "Bjoern-Morgenthaler",
+                                        "height": 1240,
+                                        "loading": "lazy",
+                                        "max_height": 1240,
+                                        "max_width": 1240,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Bjoern-Morgenthaler.jpg",
+                                        "width": 1240
+                                    },
+                                    "speaker_name": "Björn Morgenthaler,"
+                                },
+                                {
+                                    "occupation": "Software Engineer",
+                                    "speaker_image": {
+                                        "alt": "Miguel-Garrido",
+                                        "height": 1008,
+                                        "loading": "lazy",
+                                        "max_height": 1008,
+                                        "max_width": 1080,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Miguel-Garrido.jpg",
+                                        "width": 1080
+                                    },
+                                    "speaker_name": "Miguel Garrido, "
+                                }
+                            ],
+                            "start_time": 1701252900000
+                        },
+                        {
+                            "end_time": 1701258300000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract: </strong><span>This presentation provides a near-future vision of how quality assurance can look like when multiple stakeholders together need to look at software quality data even if they are not in the same room. The vision is driven by several ongoing trends in software engineering. First, the software is increasingly developed in distributed teams. Second, a more holistic approach to quality assurance is taken in which data from many sources are combined, such as the findings of static code analyzers (e.g., gathered by the Axivion Suite), coverage and failure data of dynamic tests (e.g., collected by Froglogic's tool set), or change data (e.g., retrieved from a version control system) to name a few. Third, the need to fuse and abstract quality data from the lower level of source code to an architectural level enabling all stakeholders to see the bigger picture. This vision materializes in our ongoing research project in which we create virtual rooms where members of distributed teams can meet to take a common look at their software and its quality. Based on the popular code-city metaphor, the architecture, and implementation can be visualized at a level of abstraction suitable for stakeholders from different domains (e.g., developers, testers, or managers). The virtual room can be entered remotely using classic desktop computers as well as modern AR/VR hardware. The members can interact with the visualization and take on their own individual perspectives. They can also see all other members represented by avatars, which allows them to trace the interactions of all others with the visualization and to see their gestures and mimics enabling non-verbal communication.</span></p>\n<p><span><strong>About the Speaker: </strong>Rainer Koschke is a full-time professor of software engineering at the University of Bremen in Germany and heads the software engineering group. His research interests are primarily in the fields of software engineering, program analyses, and software visualization. His current research includes program analyses, clone detection, visualization in VR and AR, reverse engineering, architecture recovery, feature location, and security. He is one of the founders of Axivion GmbH (founded in 2006) providing solutions for stopping software erosion. He received a doctoral degree in computer science at the University of Stuttgart, Germany in 1999.</span></p>",
+                            "event_title": "A Vision of Future Collaborative Qt Quality Assurance in Distributed Teams",
+                            "speakers": [
+                                {
+                                    "occupation": "Professor of Software Engineering at the University of Bremen",
+                                    "speaker_image": {
+                                        "alt": "Rainer_Koschke-1",
+                                        "height": 2500,
+                                        "loading": "lazy",
+                                        "max_height": 2000,
+                                        "max_width": 2000,
+                                        "size_type": "auto_custom_max",
+                                        "src": "https://www.qt.io/hubfs/Rainer_Koschke-1.jpg",
+                                        "width": 2500
+                                    },
+                                    "speaker_name": "Rainer Koschke,"
+                                }
+                            ],
+                            "start_time": 1701255900000
+                        },
+                        {
+                            "end_time": 1701261900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "LUNCH",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701258300000
+                        },
+                        {
+                            "end_time": 1701264600000,
+                            "event_color": "violet",
+                            "event_description": "<p><span><strong>Abstract: </strong>Are you mistreating your static analysis tool? Modern static analysis tools are able to spot a large number of critical runtime defects (e.g. overflows or divisions by zero). However, they may report false positives, which result in a manual review or rework of the code. We show examples of coding patterns that can make the life of a static analysis tool complicated and might cause an increase in false positives - and also what to do to help the tool. As an example from practice, we take a look at the implementation of a message-passing primitive and check how well it can be analyzed. The aim: make life easier for the analysis tool – and you.</span></p>\n<p><strong>About the Speakers:&nbsp;</strong>Andreas Gaiser obtained his Ph.D. in computer science from TU Munich, doing research in program analysis and formal verification. In 2013 he joined Axivion GmbH – now Qt Group – where he leads the developer team working on semantic analyses and architecture verification. <br>Dr. Daniel Simon studied computer science at Saarland University and the University of Stuttgart. He started working on the research project that lead to the founding of Axivion in 2000 and after a short break during which he consulted various companies on quality management, he took over responsibility for the company’s Professional Services in 2014. Thanks to his extensive experience in architecture management of IT and embedded software systems and his excellent communication skills, he and his team support Qt Quality Assurance customers in implementing and evolving sustainable software development. Their activities cover both technology advances as well as improvement of development processes.</p>",
+                            "event_title": "Tit for Tat: How (Not) to Bully a Static Analysis Tool",
+                            "speakers": [
+                                {
+                                    "occupation": "Head of QA Services, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Daniel_Simon",
+                                        "height": 520,
+                                        "loading": "lazy",
+                                        "max_height": 520,
+                                        "max_width": 500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Daniel_Simon.jpg",
+                                        "width": 500
+                                    },
+                                    "speaker_name": "Daniel Simon,"
+                                },
+                                {
+                                    "occupation": "Senior Research & Development Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "AndreasGaiser",
+                                        "height": 225,
+                                        "loading": "lazy",
+                                        "max_height": 225,
+                                        "max_width": 225,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/AndreasGaiser.jpg",
+                                        "width": 225
+                                    },
+                                    "speaker_name": "Andreas Gaiser,"
+                                }
+                            ],
+                            "start_time": 1701261900000
+                        },
+                        {
+                            "end_time": 1701266700000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract:</strong> <span>Most industries need to take into account safety and cybersecurity problems during their product development including embedded software. Regulation authorities like the EU or FDA are more and more demanding on both safety and cybersecurity requirements to accept a product in the market. Some innovative methods and best practices will be presented to address these challenges during the full life cycle of the software development including the certification. Some concrete examples will be presented to illustrate how Qt tools usage could help to implement solid development and testing processes.</span></p>\n<p><span><strong>About the Speaker: </strong>Erwan Coz is Senior Solution Engineer at the Qt Company. He has been working for more than 20 years in the embedded software industry. He held various technical and project management roles in the Professional Services organization at Wind River (RTOS and embedded Linux distribution vendor leader). Before joining Qt, his last position was more focused on product and project technical presales at Krono-Safe a software vendor offering a tool suite and a real-time kernel for embedded safety-critical application development. Erwan holds an engineering degree from CentraleSupelec engineering school located on the Paris-Saclay University campus.</span></p>",
+                            "event_title": "How Qt Tools Help with Compliance for Software Safety and Cybersecurity",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Solutions Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "erwan-coz",
+                                        "height": 200,
+                                        "loading": "lazy",
+                                        "max_height": 200,
+                                        "max_width": 200,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/erwan-coz.jpg",
+                                        "width": 200
+                                    },
+                                    "speaker_name": "Erwan Coz,"
+                                }
+                            ],
+                            "start_time": 1701264900000
+                        },
+                        {
+                            "end_time": 1701268800000,
+                            "event_color": "violet",
+                            "event_description": "<p><strong>Abstract: </strong><span>As the consequences of cyber-attacks are becoming increasingly severe, ensuring the security of software systems has become a necessity. Compliance with security coding guidelines can be ensured by static analysis. However, there are additional security threads caused by software architecture violations and bad modularization decisions. Since the manual review of architectural compliance is cumbersome, erroneous, and expensive, automatic static verification of software architectures is desirable. We will show how security issues and their requirements for architectures can be modeled suitably for automatic verification.</span></p>\n<p><span><strong>About the Speaker: </strong></span>Dr. Sebastian Krings is a software engineer at the Qt Group and an expert on the Axivion tools. He heads the Compiler &amp; Analysis Team and is involved with the deployment and development of tools for static analysis of software.<br>Before joining, he was a Postdoc at the institute for information security of the Niederrhein University of Applied Sciences. He received his PhD in 2017 from the Heinrich-Heine University in Düsseldorf, where he was part of the chair for software engineering and programming languages. His research was centered around formal methods for the verification of safety critical software systems.</p>",
+                            "event_title": "Code Security Beyond Development and Safety Guidelines: Architecture Security",
+                            "speakers": [
+                                {
+                                    "occupation": "Software Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Sebastian_Krings",
+                                        "height": 400,
+                                        "loading": "lazy",
+                                        "max_height": 400,
+                                        "max_width": 400,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Sebastian_Krings.jpg",
+                                        "width": 400
+                                    },
+                                    "speaker_name": "Sebastian Krings,"
+                                }
+                            ],
+                            "start_time": 1701267000000
+                        },
+                        {
+                            "end_time": 1701270000000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Farewell",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701268800000
+                        }
+                    ],
+                    "track": "Assure Quality"
+                },
+                {
+                    "events": [
+                        {
+                            "end_time": 1701251700000,
+                            "event_color": "mandarin",
+                            "event_description": "<p><strong>Abstract: </strong>Vikas and Brook will take you on a tour through the process of designing and creating control templates in Figma that can be imported into Qt Design Studio as working Qt Quick Controls. Covering the concept, design, and philosophy of Figma and Qt design systems, to how all the magic happens in the importer code itself. Join us to learn more about the potential for templates to level up your designer workflow and hear what we have in store for future features with our templating mechanism.</p>\n<p><strong>About the Speakers:</strong>&nbsp;Brook Cronin is a UI / UX and design system expert working as the lead designer for Qt Design Studio. He has a background in graphic design, interaction, and animation with interests in coding and building things both digital and physical. Design Hacker, Prototyper and Tool Maker. When he’s not working for Qt you will find him outdoors, in the countryside. <br>Vikas Pachdha is a Senior software engineer at The Qt Company GmbH. Vikas has been part of the team since the conception days of Qt Design Studio. He is a seasoned engineer with experience in technologies like C++, Qt, JS, Typescript, etc. He helped bring the concept of UI generation from design tools like Photoshop, sketch, Figma, and XD. He implemented and maintains the Qt-Bridge plugins and the asset import plugin in Qt Design Studio.</p>",
+                            "event_title": "Creating Controls from Figma Design",
+                            "speakers": [
+                                {
+                                    "occupation": "Senior Design Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Brook-Cronin-Qt",
+                                        "height": 1716,
+                                        "loading": "lazy",
+                                        "max_height": 1716,
+                                        "max_width": 1500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Brook-Cronin-Qt.jpg",
+                                        "width": 1500
+                                    },
+                                    "speaker_name": "Brook Cronin,"
+                                },
+                                {
+                                    "occupation": "Senior Software Engineer, Qt Group ",
+                                    "speaker_image": {
+                                        "alt": "vikas-pachdha-Qt",
+                                        "height": 324,
+                                        "loading": "lazy",
+                                        "max_height": 324,
+                                        "max_width": 288,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/vikas-pachdha-Qt.jpg",
+                                        "width": 288
+                                    },
+                                    "speaker_name": "Vikas Pachdha,"
+                                }
+                            ],
+                            "start_time": 1701249000000
+                        },
+                        {
+                            "end_time": 1701252900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "BREAK",
+                            "speakers": [],
+                            "start_time": 1701251700000
+                        },
+                        {
+                            "end_time": 1701255600000,
+                            "event_color": "mandarin",
+                            "event_description": "<p><strong>Abstract:</strong> 2023 is another big year for Qt Design Studio with the launch of QtDS 4.</p>\n<p>Thomas and Brook take you on a Tour of everything new in QtDS, from the new updated UI in the front end to the performance improvements in the backend and everything in between. You can learn about how we use Qt Technologies, both Widgets and QML, to create the design and implementation of QtDS.</p>\n<p>We will also take a look at new features in both the 2D and 3D worlds and give you a peak behind the curtain at what’s coming soon.&nbsp;&nbsp;</p>\n<div>\n<p><strong>About the Speakers: </strong>Brook Cronin is a UI / UX and design system expert working as the lead designer for Qt Design Studio. He has a background in graphic design, interaction, and animation with interests in coding and building things both digital and physical. Design Hacker, Prototyper and Tool Maker. When he’s not working for Qt you will find him outdoors, in the countryside. <br>Thomas Hartmann has a degree in computer science from RWTH-Aachen and more than 15 years of experience with the Qt framework. He has vast experience working as a Software Engineer in system programming, application development, and providing consultancy services to customers like Parker and Ulstein. Currently, Thomas is the lead developer of the Qt Design Studio and also managing the Berlin software development team for Qt Design Studio.</p>\n</div>",
+                            "event_title": "What's new in Design Studio 4",
+                            "speakers": [
+                                {
+                                    "occupation": " Senior Design Engineer, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Brook-Cronin-Qt-1",
+                                        "height": 1716,
+                                        "loading": "lazy",
+                                        "max_height": 1716,
+                                        "max_width": 1500,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Brook-Cronin-Qt-1.jpg",
+                                        "width": 1500
+                                    },
+                                    "speaker_name": "Brook Cronin,"
+                                },
+                                {
+                                    "occupation": " Senior Manager R&D, Qt Group ",
+                                    "speaker_image": {
+                                        "alt": "ThomasHartmann",
+                                        "height": 1206,
+                                        "loading": "lazy",
+                                        "max_height": 1206,
+                                        "max_width": 1338,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/ThomasHartmann.jpg",
+                                        "width": 1338
+                                    },
+                                    "speaker_name": "Thomas Hartmann,"
+                                }
+                            ],
+                            "start_time": 1701252900000
+                        },
+                        {
+                            "end_time": 1701258300000,
+                            "event_color": "mandarin",
+                            "event_description": "<p><strong>Abstract:&nbsp;</strong>Digital user experiences have become a defining factor in the highly competitive market of appliance manufacturing. In this new domain, high-quality visuals, smooth interaction, and smart functionality offer new opportunities for brand differentiation and recognition. Through the design phase, our vision and ideas are shaped into the visuals and user experiences, ultimately defining the behavior of our application. The need to create familiar, smartphone-like interfaces and interactions across all scales of embedded devices common in our lives has been easily met by using Qt technology.</p>\n<p><strong>About the Speaker: </strong><span>Senior graphic and UI designer with solid knowledge of UI process and toolchain. With a background in digital design for websites and apps, he approaches the design process starting from usability to delivering graphical interfaces that aim to generate a satisfying user experience.</span></p>",
+                            "event_title": "Qt Smart Home Demo: Digital Reshaping the Everyday Life",
+                            "speakers": [
+                                {
+                                    "occupation": "UI & Graphic Designer, Mirai",
+                                    "speaker_image": {
+                                        "alt": "Xavier_Claro_Mirai",
+                                        "height": 1785,
+                                        "loading": "lazy",
+                                        "max_height": 1785,
+                                        "max_width": 1785,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Xavier_Claro_Mirai.jpg",
+                                        "width": 1785
+                                    },
+                                    "speaker_name": "Xavier Claro,"
+                                }
+                            ],
+                            "start_time": 1701255900000
+                        },
+                        {
+                            "end_time": 1701261900000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "LUNCH",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701258300000
+                        },
+                        {
+                            "end_time": 1701264600000,
+                            "event_color": "mandarin",
+                            "event_description": "<p><strong>Abstract: </strong><span>This talk will focus on the MVVM approach to UI development using the Qt framework, specifically on the strict separation of the UI's visual layer (View), its logic and data management layer (ViewModel), and the driving mock-data back-end (Model). By implementing ViewModel modeling, developers can create UI components that are highly modular, reusable, and easily maintainable across multiple platforms while allowing designers a greater degree of flexibility and total control over their UI designs. The talk will cover the technical aspects of this approach and its benefits in terms of UI design systems, usability, and performance. Attendees will gain insights into the benefits of ViewModel modeling and learn how to apply these principles to their own UI development projects using the Qt framework and Qt Design Studio.</span></p>\n<p><span><strong>About the Speaker:</strong> </span>Gray Holland's career has taken him on a journey through diverse industries, where he consistently strives to push the boundaries of user-centric design. His practice focuses on spearheading next-generation 3D software systems, including defining industry standards like the ViewCube for Autodesk. From building a UX team from scratch as the CDO of Nemetschek Allplan for architectural and civic engineering software to 3D animation UX systems for Maxon's Cinema 4D, automotive design solutions for Dassault Systèmes Catia, even future UX concepts for Qt Design Studio, Gray's vision blends flowing interaction with engineering precision. His experience also extends to industrial design on AR projects for Intel and Microsoft, exploring the future of augmented reality. In his latest endeavor, Gray assumes the role of Head of Product Design at Arcturus Studio, where his journey continues implementing innovative UI tooling solutions.</p>",
+                            "event_title": "Unleashing the Power of Qt and MVVM for Custom UI Development: From View to ViewModel and Back!",
+                            "speakers": [
+                                {
+                                    "occupation": " Director, UX-Flo",
+                                    "speaker_image": {
+                                        "alt": "Gray-Holland",
+                                        "height": 448,
+                                        "loading": "lazy",
+                                        "max_height": 448,
+                                        "max_width": 448,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/Gray-Holland.jpg",
+                                        "width": 448
+                                    },
+                                    "speaker_name": "Gray Holland,"
+                                }
+                            ],
+                            "start_time": 1701261900000
+                        },
+                        {
+                            "end_time": 1701266700000,
+                            "event_color": "mandarin",
+                            "event_description": "<p><strong>Abstract:</strong> <span>Usually, when designers get to know Design Studio, they are both amazed and terrified. This wonderful package promises to give full control and speed in creating user interfaces ready for shipping. However, compared to familiar UI design tools, it comes with different metaphors, different concepts, and different workflows. As one of the longest-standing trainers for Design Studio, both as FlowTeal and for The Qt Company, I'll share a few insights gathered by teaching both designers and developers. Learning from designers’ needs and habits will be key to the widespread adoption of this revolutionary product.</span></p>\n<p><span><strong>About the Speaker:</strong> Marco Piccolino is a Studio Training Expert and HMI Architect at&nbsp;teal.blue. He’s been developing multi-platform Qt/QML applications for mobile, embedded, and desktop since 2015. He has a strong track record as a course trainer for companies on Qt/QML, Qt Design Studio, and other developer and designer topics, both on behalf of The Qt Company and directly. He regularly presents on Qt topics at worldwide conferences, including Qt World Summit (2017), Qt Day (2016, 2017, 2019, 2020), and Qt DevCon (2022). In 2017 he was awarded the Qt Champion title for his content creation activities.</span></p>",
+                            "event_title": "Lessons Learned from Teaching Design Studio to UX/UI Professionals",
+                            "speakers": [
+                                {
+                                    "occupation": "Qt Design Studio training expert and HMI architect, teal.blue",
+                                    "speaker_image": {
+                                        "alt": "marco_piccolino",
+                                        "height": 1345,
+                                        "loading": "lazy",
+                                        "max_height": 1345,
+                                        "max_width": 1345,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/marco_piccolino.jpg",
+                                        "width": 1345
+                                    },
+                                    "speaker_name": "Marco Piccolino,"
+                                }
+                            ],
+                            "start_time": 1701264900000
+                        },
+                        {
+                            "end_time": 1701268800000,
+                            "event_color": "mandarin",
+                            "event_description": "<p><strong>Abstract: </strong><span><span dir=\"ltr\">As the whole industry is ripe for adapting a software-defined vehicle strategy (SDV), some of the vehicle manufacturers have already taken a holistic approach to cockpit HMIs. They understood the importance of creating a discipline cross functions that complements instead of working against. Through the lens of several case studies in this talk, we will examine in greater detail about how they created a non-zero-sum approach to maximize the HMI productivity</span></span></p>\n<p><span><strong>About the Speaker: </strong><span dir=\"ltr\">Patrick Thurman is a product and marketing professional working as a Product Manager for Qt. With his background in product, technology, and visuals he is able to approach many of the common pitfalls of modern product development with a wider and more holistic viewpoint.</span></span></p>",
+                            "event_title": "The non-zero-sum approach to HMI UX/UI development",
+                            "speakers": [
+                                {
+                                    "occupation": "Product Manager, Qt Group",
+                                    "speaker_image": {
+                                        "alt": "Patrick Thurman",
+                                        "height": 1600,
+                                        "loading": "lazy",
+                                        "max_height": 1600,
+                                        "max_width": 1600,
+                                        "size_type": "auto",
+                                        "src": "https://www.qt.io/hubfs/DSC02876-2-2.jpg",
+                                        "width": 1600
+                                    },
+                                    "speaker_name": "Patrick Thurman,"
+                                }
+                            ],
+                            "start_time": 1701267000000
+                        },
+                        {
+                            "end_time": 1701270000000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Farewell",
+                            "speakers": {
+                                "speaker_image": {
+                                    "loading": "lazy",
+                                    "size_type": "auto",
+                                    "src": ""
+                                }
+                            },
+                            "start_time": 1701268800000
+                        },
+                        {
+                            "end_time": 1701244500000,
+                            "event_color": "moss",
+                            "event_description": "",
+                            "event_title": "Coffee & Breakfast",
+                            "speakers": [],
+                            "start_time": 1701243000000
+                        }
+                    ],
+                    "track": "Design & HMI Creation"
+                }
+            ]
+        }
+    ],
+    "event_timezone": "UTC+1"
+}

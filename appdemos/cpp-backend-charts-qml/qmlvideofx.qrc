@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/qmlvideofx/shaders/billboard.fsh</file>
+        <file>qml/qmlvideofx/shaders/blackandwhite.fsh</file>
+        <file>qml/qmlvideofx/shaders/emboss.fsh</file>
+        <file>qml/qmlvideofx/shaders/gaussianblur_h.fsh</file>
+        <file>qml/qmlvideofx/shaders/gaussianblur_v.fsh</file>
+        <file>qml/qmlvideofx/shaders/glow.fsh</file>
+        <file>qml/qmlvideofx/shaders/isolate.fsh</file>
+        <file>qml/qmlvideofx/shaders/magnify.fsh</file>
+        <file>qml/qmlvideofx/shaders/pagecurl.fsh</file>
+        <file>qml/qmlvideofx/shaders/pixelate.fsh</file>
+        <file>qml/qmlvideofx/shaders/posterize.fsh</file>
+        <file>qml/qmlvideofx/shaders/ripple.fsh</file>
+        <file>qml/qmlvideofx/shaders/selectionpanel.fsh</file>
+        <file>qml/qmlvideofx/shaders/sepia.fsh</file>
+        <file>qml/qmlvideofx/shaders/sharpen.fsh</file>
+        <file>qml/qmlvideofx/shaders/shockwave.fsh</file>
+        <file>qml/qmlvideofx/shaders/sobeledgedetection1.fsh</file>
+        <file>qml/qmlvideofx/shaders/tiltshift.fsh</file>
+        <file>qml/qmlvideofx/shaders/toon.fsh</file>
+        <file>qml/qmlvideofx/shaders/vignette.fsh</file>
+        <file>qml/qmlvideofx/shaders/warhol.fsh</file>
+        <file>qml/qmlvideofx/shaders/wobble.fsh</file>
+    </qresource>
+</RCC>

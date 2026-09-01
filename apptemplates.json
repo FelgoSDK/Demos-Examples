@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "templates": {
+    "app-singlepage": {
+      "id": "app-singlepage",
+      "title": "Single Page",
+      "sourcePath": "apptemplates/app-singlepage",
+      "shortDescription": "Single Page app template",
+      "order": 1
+    }
+  }
+}
